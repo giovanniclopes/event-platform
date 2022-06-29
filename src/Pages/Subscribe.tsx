@@ -2,6 +2,7 @@ import { useState,FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
+import codeMockup from "../assets/code-mockup.png";
 
 export function Subscribe() {
     const navigate = useNavigate()
@@ -25,7 +26,7 @@ export function Subscribe() {
     }
 
     return (
-        <div className="desktop:min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
+        <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
             <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto sm:flex-col gap-8">
                 <div className="max-w-[640px] sm:max-w-[300px]">
                     <Logo />
@@ -66,7 +67,7 @@ export function Subscribe() {
                 </div>
             </div>
 
-            <img src="/src/assets/code-mockup.png" className="mt-10 sm:hidden" alt="" />
+            <img src={codeMockup} className="mt-10 sm:hidden" alt="" />
         </div>
     );
 }
