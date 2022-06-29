@@ -25,12 +25,12 @@ export function Subscribe() {
     }
 
     return (
-        <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
-            <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
-                <div className="max-w-[640px]">
+        <div className="desktop:min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center">
+            <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto sm:flex-col gap-8">
+                <div className="max-w-[640px] sm:max-w-[300px]">
                     <Logo />
 
-                    <h1 className="mt-8 text-[2.5rem] leading-tight">
+                    <h1 className="mt-8 text-[2.5rem] leading-tight sm:text-2xl">
                         Construa uma <strong className="text-blue-500">aplicação completa</strong>, do zero, com <strong className="
                         text-blue-500">React JS</strong>
                     </h1>
@@ -39,7 +39,7 @@ export function Subscribe() {
                     </p>
                 </div>
 
-                <div className="p-8 bg-gray-700 border border-gray-500 rounded">
+                <div className="p-8 bg-gray-700 border border-gray-500 rounded sm:mb-6">
                     <strong className="text-2xl mb-6 block">Inscreva-se gratuitamente</strong>
 
                     <form onSubmit={handleSubscribe} className="flex flex-col gap-2 w-full">
@@ -66,7 +66,7 @@ export function Subscribe() {
                 </div>
             </div>
 
-            <img src="/src/assets/code-mockup.png" className="mt-10" alt="" />
+            <img src="/src/assets/code-mockup.png" className="mt-10 sm:hidden" alt="" />
         </div>
     );
 }
