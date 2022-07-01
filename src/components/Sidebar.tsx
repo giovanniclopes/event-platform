@@ -1,5 +1,6 @@
 import { gql, useQuery } from "@apollo/client";
 import { useGetLessonsQuery } from "../graphql/generated";
+import { Footer } from "./Footer";
 import { Lesson } from "./Lesson";
 
 export function Sidebar() {
@@ -26,6 +27,9 @@ export function Sidebar() {
                     )
             })}
             </div>
+            <footer className="sm:block md,lg,xl,2xl: hidden">
+                <Footer />
+            </footer>
         </aside>
     )
 }
