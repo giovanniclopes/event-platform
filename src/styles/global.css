@@ -3,6 +3,24 @@
 @tailwind utilities;
 
 body {
-    @apply bg-gray-900 text-gray-100;
-    -webkit-font-smoothing: antialiased;
+  @apply font-inter font-light tracking-tight;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  background: #000;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 30px;
+  background: rgb(37, 37, 37);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(105, 105, 105);
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #e7005e;
 }

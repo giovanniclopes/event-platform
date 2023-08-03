@@ -3,7 +3,6 @@ import { CaretRight, DiscordLogo, FileArrowDown, Lightning, Spinner } from "phos
 
 import '@vime/core/themes/default.css';
 import { useGetLessonBySlugQuery } from "../graphql/generated";
-import { Footer } from "./Footer";
 
 interface VideoProps {
     lessonSlug: string;
@@ -37,7 +36,7 @@ export function Video(props: VideoProps) {
     }
 
     return (
-        <div className="flex-1">
+        <div className="flex-1 mt-3">
             <div className="bg-black flex justify-center">
                 <div className="h-full w-full max-w-[1100px] max-h-[60vh] aspect-video">
                     <Player controls>
@@ -48,7 +47,7 @@ export function Video(props: VideoProps) {
             </div>
 
             <div className="p-8 max-w-[1100px] mx-auto">
-                <div className="flex items-start gap-16 sm:block">
+                <div className="flex items-start gap-16 mbl:block">
                     <div className="flex-1">
                         <h1 className="text-2xl font-bold">
                             {data.lesson.title}
@@ -58,9 +57,9 @@ export function Video(props: VideoProps) {
                         </p>
 
                         {data.lesson.teacher && (
-                            <div className="flex items-center gap-4 mt-6 sm:mt-10">
+                            <div className="flex items-center gap-4 mt-6 mbl:mt-10">
                                 <img
-                                className="h-16 w-16 rounded-full border-2 border-blue-500" 
+                                className="h-16 w-16 rounded-full border-2 border-product-purple" 
                                 src={data.lesson.teacher.avatarURL}
                                 alt="Avatar"
                                 />
@@ -73,22 +72,22 @@ export function Video(props: VideoProps) {
                         )}
                     </div>
 
-                    <div className="flex flex-col gap-4 sm:mt-10">
-                        <a href="" className="p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
+                    <div className="flex flex-col gap-4 mbl:mt-10">
+                        <a href="" className="p-4 text-sm bg-product-purple flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-product-darkPurple transition-colors">
                             <DiscordLogo size={24} />
                             Comunidade do Discord
                         </a>
 
-                        <a href="" className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-gray-900 transition-colors">
+                        <a href="" className="p-4 text-sm border border-product-lightPink text-product-lightPink flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-product-lightPink hover:text-gray-900 transition-colors">
                             <Lightning size={24} />
                             Acesse o desafio
                         </a>
                     </div>
                 </div>
 
-                <div className="gap-8 mt-20 grid grid-cols-2 sm:grid-cols-1">
+                <div className="gap-8 mt-20 grid grid-cols-2 mbl:grid-cols-1">
                     <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
-                        <div className="bg-green-700 h-full p-6 flex items-center">
+                        <div className="bg-product-purple h-full p-6 flex items-center">
                             <FileArrowDown size={40} />
                         </div>
                         <div className="py-6 leading-relaxed">
@@ -103,7 +102,7 @@ export function Video(props: VideoProps) {
                     </a>
 
                     <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
-                        <div className="bg-green-700 h-full p-6 flex items-center">
+                        <div className="bg-product-purple h-full p-6 flex items-center">
                             <FileArrowDown size={40} />
                         </div>
                         <div className="py-6 leading-relaxed">
@@ -118,9 +117,6 @@ export function Video(props: VideoProps) {
                     </a>
                 </div>
             </div>
-            <footer className="sm:hidden">
-                <Footer />
-            </footer>
         </div>
     )
 }

@@ -1,58 +1,46 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/**/*.tsx'
-  ],
+  content: ["./src/**/*.tsx"],
   theme: {
-    screens: {
-      '2xl': {'max': '1535px'},
-      // => @media (max-width: 1535px) { ... }
-
-      'xl': {'max': '1279px'},
-      // => @media (max-width: 1279px) { ... }
-
-      'lg': {'max': '1023px'},
-      // => @media (max-width: 1023px) { ... }
-
-      'md': {'max': '767px'},
-      // => @media (max-width: 767px) { ... }
-
-      'sm': {'max': '639px'},
-      // => @media (max-width: 639px) { ... }
-    },
     extend: {
+      screens: {
+        mbl: { max: "630px" }, // mbl == mobile
+        // => @media (max-width: 630px) { ... }
+      },
       backgroundImage: {
-        blur: 'url(/src/assets/blur-background.png)'
+        bgHeroSection: "url(../../src/assets/bg-hero-section.png)",
+        vectorHowWillLearn: "url(../../src/assets/svg/vectorHowWillLearn.svg)",
+        vectorOurSolutions: "url(../../src/assets/svg/vectorOurSolutions.svg)",
+        vectorIntellionExperience:
+          "url(../../src/assets/svg/vectorIntellionExperience.svg)",
+        vectorTryForFree: "url(../../src/assets/svg/vectorTryForFree.svg)",
       },
       fontFamily: {
-        sans: 'Roboto, sans-serif'
+        inter: "Inter, sans-serif",
       },
       colors: {
-        green: {
-          300: '#00B37E',
-          500: '#00875F',
-          700: '#015F43',
+        product: {
+          lightPurple: "#3D3A6C",
+          purple: "#381571",
+          mediumPurple: "#242145",
+          darkPurple: "#1B1834",
+          lightPink: "#F05695",
+          pink: "#e7005e",
+          darkPink: "#76174E",
         },
-        blue: {
-          500: '#81D8F7',
+        pink: {
+          100: "#faccdf",
+          200: "#f599bf",
+          300: "#f1669e",
+          400: "#ec337e",
+          500: "#e7005e",
+          600: "#b9004b",
+          700: "#8b0038",
+          800: "#5c0026",
+          900: "#2e0013",
         },
-        orange: {
-          500: '#FBA94C',
-        },
-        red: {
-          500: '#F75A68',
-        },
-        gray: {
-          100: '#E1E1E6',
-          200: '#C4C4CC',
-          300: '#8D8D99',
-          500: '#323238',
-          600: '#29292E',
-          700: '#121214',
-          900: '#09090A'
-        }
       },
     },
   },
   plugins: [],
-}
+};

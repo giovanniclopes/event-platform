@@ -22,36 +22,36 @@ export function Lesson(props: LessonProps) {
     const isActiveLesson = slug === props.slug
 
     return (
-        <Link to={`/event/lesson/${props.slug}`} className='group'>
+        <Link to={`/classes/lesson/${props.slug}`} className='group'>
             <span className="text-gray-300">
                 {availableDateFormatted}
             </span>
 
             <div 
-                className={classNames('rounded border border-gray-500 p-4 mt-2 group-hover:border-green-500 transition-colors',{
-                    'bg-green-500': isActiveLesson,
+                className={classNames('rounded border border-gray-500 p-4 mt-2 group-hover:border-product-purple transition-colors',{
+                    'bg-product-purple': isActiveLesson,
                 })}
             >
                 <header className="flex items-center justify-between">
                     {isLessonAvailable ? (
-                        <span className={classNames('text-sm text-blue-500 font-medium flex items-center gap-2', {
+                        <span className={classNames('text-sm text-white font-medium flex items-center gap-2', {
                             'text-white': isActiveLesson,
-                            'text-blue-500': !isActiveLesson,
+                            'text-purple-300': !isActiveLesson,
                         })}>
                         <CheckCircle size={20}/>
                         Conteúdo liberado
                         </span>
                     ) : (
-                        <span className="text-sm text-orange-500 font-medium flex items-center gap-2">
+                        <span className="text-sm text-orange-400 font-medium flex items-center gap-2">
                         <Lock size={20}/>
                         Em breve
                         </span>
                     )
                 }
 
-                    <span className={classNames('text-xs rounded py-[0.25rem] px-2 text-white border border-green-300', {
+                    <span className={classNames('text-xs rounded py-[0.25rem] px-2 text-white border border-pink-300', {
                         'border-white': isActiveLesson,
-                        'border-green-300': !isActiveLesson
+                        'border-pink-300': !isActiveLesson
                     })}>
                         {props.type == 'live' ? 'AO VIVO' : 'AULA PRÁTICA'}
                     </span>
