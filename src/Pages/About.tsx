@@ -20,9 +20,9 @@ export default function About() {
   return (
     <main className="my-32">
       <div>
-        <div className="grid grid-cols items-end justify-end gap-5 px-32 my-32">
+        <div className="grid grid-cols items-end justify-end gap-5 px-32 my-32 mbl:px-12">
           <div>
-            <h2 className="text-6xl font-semibold">
+            <h2 className="text-6xl font-semibold mbl:text-4xl">
               Construímos pontes de segurança para{" "}
               <span className="text-product-lightPink">
                 uma experiência online segura
@@ -50,15 +50,15 @@ export default function About() {
             perspiciatis facilis.
           </p>
         </div>
-        <div className="flex flex-row items-start justify-start gap-12 px-12">
-          <div className="w-1/2">
+        <div className="flex flex-row items-start justify-start gap-12 px-12 mbl:flex mbl:flex-col">
+          <div className="w-1/2 mbl:w-full">
             <img
               className="w-full h-full rounded"
               src={getInTouch}
               alt="Imagem para entrar em contato"
             />
           </div>
-          <div className="flex flex-col gap-12 w-1/2">
+          <div className="flex flex-col gap-12 w-1/2 mbl:w-full">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sequi
               nemo vitae iste! Similique corrupti architecto voluptas blanditiis
@@ -89,7 +89,7 @@ export default function About() {
       </div>
 
       <div className="flex items-center justify-center">
-        <div className="grid grid-cols-3 items-center justify-center gap-24">
+        <div className="grid grid-cols-3 items-center justify-center gap-24 mbl:flex mbl:flex-col">
           <Infos
             title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas harum cupiditate mollitia?"
             text="290+"

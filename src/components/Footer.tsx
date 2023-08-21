@@ -3,8 +3,8 @@ import logo from "../assets/svg/logo-intellion.svg";
 
 export function Footer() {
   return (
-    <footer className="flex flex-col gap-6 bg-gradient-to-b m-0 p-24 pb-5 from-product-darkPurple to-product-mediumPurple text-gray-400">
-      <div className="grid grid-cols-4">
+    <footer className="flex flex-col gap-6 bg-gradient-to-b m-0 p-24 pb-5 from-product-darkPurple to-product-mediumPurple text-gray-400 mbl:p-12">
+      <div className="grid grid-cols-4 mbl:flex mbl:flex-col mbl:gap-16">
         <div className="flex flex-col gap-6">
           <h4 className="text-white">Suporte</h4>
           <ul className="flex flex-col gap-3">
@@ -67,12 +67,12 @@ export function Footer() {
             alt="Logo"
             draggable="false"
           />
-          <p>
+          <p className="mbl:text-xs">
             Copyright @ 2023 - {new Date().getFullYear()}. Todos os direitos
             reservados.
           </p>
         </div>
-        <div className="flex flex-row gap-8">
+        <div className="flex flex-row gap-8 mbl:text-xs">
           <Link to="/termos-de-uso">Termos de uso</Link>
           <Link to="/politica-de-privacidade">Política de Privacidade</Link>
         </div>

@@ -7,12 +7,12 @@ export default function Contact() {
     <main className="flex flex-col items-center justify-center my-24">
       <div className="flex flex-col gap-20">
         <div>
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-5xl font-bold mbl:text-4xl">
             Gostaríamos de ouvir você, <br /> Entre em contato 👋
           </h1>
         </div>
         <div>
-          <div className="flex flex-col gap-36 w-[1150px]">
+          <div className="flex flex-col gap-36 w-[1150px] mbl:w-max">
             <Form />
             <ContactUs />
             <FrequentlyAskedQuestions />

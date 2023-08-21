@@ -22,7 +22,7 @@ import TryCourseBlock from "./TryCourseBlock";
 export default function HomeSections() {
   return (
     <div>
-      <div className="flex flex-col gap-20 px-24 py-12">
+      <div className="flex flex-col gap-20 px-24 py-12 mbl:px-12">
         <HomeSectionBlockReverse
           title={"Segurança na Internet para Todos"}
           description={
@@ -70,9 +70,9 @@ export default function HomeSections() {
         />
       </div>
 
-      <section className="flex flex-col gap-16 items-center justify-center bg-product-purple text-white p-24 mb-0">
+      <section className="flex flex-col gap-16 items-center justify-center bg-product-purple text-white p-24 mb-0 mbl:px-12">
         <h3 className="text-2xl font-bold">Como você irá aprender aqui</h3>
-        <div className="grid grid-cols-3 gap-12 item-center justify-center bg-vectorHowWillLearn bg-cover">
+        <div className="grid grid-cols-3 gap-12 item-center justify-center bg-vectorHowWillLearn bg-cover mbl:flex mbl:flex-col mbl:gap-28">
           <HowWillLearn
             imageURL={mostRequestedHabilities}
             title={"Domine as habilidades mais solicitadas"}
@@ -99,7 +99,7 @@ export default function HomeSections() {
         </div>
       </section>
 
-      <section className="bg-product-mediumPurple text-white p-24 bg-vectorOurSolutions bg-contain m-0">
+      <section className="bg-product-mediumPurple text-white p-24 bg-vectorOurSolutions bg-contain m-0 mbl:p-12">
         <div className="flex flex-col gap-5 mb-12">
           <span className="font-light">Nossas soluções</span>
           <div className="flex flex-col gap-2">
@@ -179,8 +179,8 @@ export default function HomeSections() {
         </div>
       </section>
 
-      <section className="p-24 bg-vectorIntellionExperience m-0">
-        <div className="grid grid-cols-2 items-start justify-center gap-5">
+      <section className="p-24 bg-vectorIntellionExperience m-0 mbl:p-12">
+        <div className="grid grid-cols-2 items-start justify-center gap-5 mbl:flex mbl:flex-col">
           <div>
             <img src={skillsLogoIntellionExperience} alt="" />
           </div>
@@ -224,9 +224,9 @@ export default function HomeSections() {
         </div>
       </section>
 
-      <section className="p-24 bg-vectorTryForFree bg-cover m-0">
+      <section className="p-24 bg-vectorTryForFree bg-cover m-0 mbl:p-12">
         <div className="flex flex-col items-center justify-center gap-12">
-          <div className="w-full flex flex-row items-center justify-between px-12">
+          <div className="w-full flex flex-row items-center justify-between px-12 mbl:flex mbl:flex-col mbl:px-1">
             <h3 className="text-2xl text-white">Experimente gratuitamente</h3>
             <Link to="/subscribe">
               <button className="flex items-center justify-center gap-1 font-medium text-product-pink transition-colors hover:brightness-75 hover:underline">
@@ -234,7 +234,7 @@ export default function HomeSections() {
               </button>
             </Link>
           </div>
-          <div className="flex flex-row row items-center justify-center gap-12">
+          <div className="flex flex-row items-center justify-center gap-12 mbl:flex mbl:flex-col">
             <TryCourseBlock
               btnLink=""
               imageURL={tryIntellionIntroductionCourse}

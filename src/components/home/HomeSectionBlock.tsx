@@ -14,7 +14,7 @@ interface HomeSectionBlock {
 export default function HomeSectionBlock(props: HomeSectionBlock) {
   return (
     <section>
-      <div className="grid grid-cols-2 items-center justify-center gap-16 mb-16">
+      <div className="grid grid-cols-2 items-center justify-center gap-16 mb-16 mbl:flex mbl:flex-col">
         <div className="flex items-center justify-center">
           <img src={props.imageURL} alt="" />
         </div>
@@ -27,7 +27,7 @@ export default function HomeSectionBlock(props: HomeSectionBlock) {
               draggable="false"
             />
             <h3 className="text-3xl font-medium">{props.title}</h3>
-            <p className="w-4/5">{props.description}</p>
+            <p className="w-full">{props.description}</p>
             <span className="font-semibold">
               {props.author} <br />{" "}
               <span className="font-medium">{props.authorRole}</span>

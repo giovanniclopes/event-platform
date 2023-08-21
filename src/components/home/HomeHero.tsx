@@ -11,7 +11,7 @@ export default function HomeHero() {
           <div>
             <span className="text-product-pink">Plataforma</span>
             <div className="flex flex-col items-start justify-center gap-7 mt-3">
-              <h1 className="text-5xl font-semibold">
+              <h1 className="text-4xl font-semibold">
                 Aprenda a usar a internet com a{" "}
                 <span className="font-bold">IntelliOn</span>
               </h1>

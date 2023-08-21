@@ -15,11 +15,11 @@ export default function HomeSectionBlockReverse(
 ) {
   return (
     <section>
-      <div className="grid grid-cols-2 items-center jusitfy-center gap-10 mbl:flex">
+      <div className="grid grid-cols-2 items-center jusitfy-center gap-10 mbl:flex mbl:flex-col-reverse">
         <div className="flex flex-col gap-5">
           <div className="flex flex-col gap-6">
             <h3 className="text-3xl font-medium">{props.title}</h3>
-            <p className="w-4/5 mbl:w-auto">{props.description}</p>
+            <p className="w-max mbl:w-auto">{props.description}</p>
           </div>
           <div className="flex items-center justify-start gap-3">
             <Link to={props.button1Link}>
