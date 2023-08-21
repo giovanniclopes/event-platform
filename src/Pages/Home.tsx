@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <main>
       <div>
-        <Link to="https://example.com" target="_blank">
+        <a href="https://play.google.com/store/apps/dev?id=5700313618786177705" target="_blank">
           <img src={bannerSam} alt="Banner de anúncio do app S.A.M" />
-        </Link>
+        </a>
       </div>
       <HomeHero />
       <Certified />
