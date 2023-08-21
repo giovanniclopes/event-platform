@@ -6,11 +6,11 @@ export default function Form() {
       <div className="w-full h-56 grid grid-cols-2 grid-rows-2 gap-x-12">
         <div className="flex flex-col gap-5">
           <div className="flex flex-col">
-            <label className="text-lg mb-3" htmlFor="userName">
+            <label className="text-lg font-normal mb-3" htmlFor="userName">
               Seu nome <span className="text-red-500">*</span>
             </label>
             <input
-              className="p-3 rounded-lg rounded-b-none bg-gray-50 font-normal border-b border-b-product-pink transition-all placeholder:text-gray-300 focus:ring-1 focus:ring-product-purple focus:rounded focus:outline-0 focus:border-0"
+              className="p-3 rounded-lg rounded-b-none bg-gray-50 font-normal border border-gray-100 border-b-product-pink transition-all placeholder:text-gray-300 focus:ring-1 focus:ring-product-purple focus:rounded focus:outline-0 focus:border-0"
               type="text"
               name="userName"
               id="userName"
@@ -19,11 +19,11 @@ export default function Form() {
             />
           </div>
           <div className="flex flex-col">
-            <label className="text-lg mb-3" htmlFor="userInterest">
+            <label className="text-lg font-normal mb-3" htmlFor="userInterest">
               No que está interessado? <span className="text-red-500">*</span>
             </label>
             <select
-              className="p-3 rounded-lg rounded-b-none bg-gray-50 font-normal border-b border-b-product-pink transition-all placeholder:text-gray-300 focus:ring-1 focus:ring-product-purple focus:rounded focus:outline-0 focus:border-0"
+              className="p-3 rounded-lg rounded-b-none bg-gray-50 font-normal border border-gray-100 border-b-product-pink transition-all placeholder:text-gray-300 focus:ring-1 focus:ring-product-purple focus:rounded focus:outline-0 focus:border-0"
               id="interests"
               required
             >
@@ -43,11 +43,11 @@ export default function Form() {
         </div>
         <div className="flex flex-col gap-6">
           <div className="flex flex-col">
-            <label className="text-lg mb-3" htmlFor="userEmail">
+            <label className="text-lg font-normal mb-3" htmlFor="userEmail">
               Seu email <span className="text-red-500">*</span>
             </label>
             <input
-              className="p-3 rounded-lg rounded-b-none bg-gray-50 font-normal border-b border-b-product-pink transition-all placeholder:text-gray-300 focus:ring-1 focus:ring-product-purple focus:rounded focus:outline-0 focus:border-0"
+              className="p-3 rounded-lg rounded-b-none bg-gray-50 font-normal border border-gray-100 border-b-product-pink transition-all placeholder:text-gray-300 focus:ring-1 focus:ring-product-purple focus:rounded focus:outline-0 focus:border-0"
               type="email"
               name="userEmail"
               id="userEmail"
@@ -55,17 +55,17 @@ export default function Form() {
               required
             />
           </div>
-          <div className="flex flex-col gap-5 p-3 rounded-lg rounded-b-none bg-gray-50 font-normal border-b border-b-product-pink transition-all placeholder:text-gray-300 focus:ring-1 focus:ring-product-purple focus:rounded focus:outline-0 focus:border-0">
-            <label className="text-lg mb-3" htmlFor="userLikeTech">
+          <div className="flex flex-col gap-5 p-3 rounded-lg rounded-b-none bg-gray-50 font-normal border border-gray-100 border-b-product-pink transition-all placeholder:text-gray-300 focus:ring-1 focus:ring-product-purple focus:rounded focus:outline-0 focus:border-0">
+            <label className="text-lg font-normal mb-3" htmlFor="userLikeTech">
               Gosta de tecnologia?
             </label>
             <div className="flex items-center justify-start gap-3">
               <input type="radio" id="yes" name="userResponse" value="Sim" />
-              <label className="text-lg -ml-2" htmlFor="yes">
+              <label className="text-lg font-normal -ml-2" htmlFor="yes">
                 Sim
               </label>
               <input type="radio" id="nao" name="userResponse" value="Não" />
-              <label className="text-lg -ml-2" htmlFor="Não">
+              <label className="text-lg font-normal -ml-2" htmlFor="Não">
                 Não
               </label>
             </div>
@@ -73,11 +73,11 @@ export default function Form() {
         </div>
       </div>
       <div className="flex flex-col">
-        <label className="text-lg mb-3" htmlFor="message">
+        <label className="text-lg font-normal mb-3" htmlFor="message">
           Sua mensagem <span className="text-red-500">*</span>
         </label>
         <textarea
-          className="p-3 rounded-lg rounded-b-none bg-gray-50 font-normal border-b border-b-product-pink transition-all placeholder:text-gray-300 focus:ring-1 focus:ring-product-purple focus:rounded focus:outline-0 focus:border-0"
+          className="p-3 rounded-lg rounded-b-none bg-gray-50 font-normal border border-gray-100 border-b-product-pink transition-all placeholder:text-gray-300 focus:ring-1 focus:ring-product-purple focus:rounded focus:outline-0 focus:border-0"
           name="message"
           id="message"
           placeholder="Escreva sua mensagem"

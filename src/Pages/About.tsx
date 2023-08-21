@@ -18,9 +18,9 @@ export function Infos(props: InfosProps) {
 
 export default function About() {
   return (
-    <main className="my-24">
+    <main className="my-32">
       <div>
-        <div className="grid grid-cols-2 items-end justify-end gap-5 px-32 my-20">
+        <div className="grid grid-cols items-end justify-end gap-5 px-32 my-32">
           <div>
             <h2 className="text-6xl font-semibold">
               Construímos pontes de segurança para{" "}
@@ -30,7 +30,7 @@ export default function About() {
             </h2>
           </div>
           <div className="flex items-end justify-end">
-            <p className="text-xl border-l border-product-pink pl-3">
+            <p className="text-xl border-l border-product-lightPink pl-3">
               Tudo que você precisa para utilizar a internet da melhor maneira.{" "}
               <br /> Da maneira que você merece.
             </p>
@@ -58,7 +58,7 @@ export default function About() {
               alt="Imagem para entrar em contato"
             />
           </div>
-          <div className="flex flex-col gap-5 w-1/2">
+          <div className="flex flex-col gap-12 w-1/2">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sequi
               nemo vitae iste! Similique corrupti architecto voluptas blanditiis
@@ -77,13 +77,10 @@ export default function About() {
               velit, corporis odio non dolor deleniti explicabo maxime
               voluptatem perspiciatis veniam aliquid? Accusantium amet
               repellendus ipsum magni porro illo ea quo alias hic illum dicta
-              omnis commodi, soluta corporis nostrum. Eius illum odio inventore
-              saepe, mollitia quam similique ex eum aliquid ratione nisi autem
-              itaque odit fugiat tenetur rerum animi esse dolor hic, blanditiis
-              iste officiis porro. Facere dolor eos perferendis aliquam!
+              omnis commodi, soluta corporis nostrum.
             </p>
             <Link className="w-max" to="/contact">
-              <button className=" flex items-center justify-center py-3 px-8 text-product-pink border border-product-pink rounded transition-color hover:text-white hover:bg-product-pink">
+              <button className=" flex items-center justify-center py-3 px-8 font-semibold text-product-pink border border-product-pink rounded transition-color hover:text-white hover:bg-product-pink">
                 Entre em contato
               </button>
             </Link>

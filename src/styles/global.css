@@ -6,6 +6,10 @@ body {
   @apply font-inter font-light tracking-tight;
 }
 
+p {
+  @apply text-base leading-relaxed
+}
+
 ::-webkit-scrollbar {
   width: 14px;
   background: #000;

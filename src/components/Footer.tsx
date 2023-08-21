@@ -8,7 +8,9 @@ export function Footer() {
         <div className="flex flex-col gap-6">
           <h4 className="text-white">Suporte</h4>
           <ul className="flex flex-col gap-3">
-            <li>Contato</li>
+            <Link className="w-min" to="/contact">
+              <li>Contato</li>
+            </Link>
             <li>Centro de ajuda</li>
           </ul>
         </div>
@@ -25,7 +27,9 @@ export function Footer() {
         <div className="flex flex-col gap-6">
           <h4 className="text-white">Empresa</h4>
           <ul className="flex flex-col gap-3">
-            <li>Sobre Nós</li>
+            <Link className="w-min" to="about">
+              <li className="w-max">Sobre Nós</li>
+            </Link>
             <li>Carreiras</li>
             <li>Recursos</li>
           </ul>
