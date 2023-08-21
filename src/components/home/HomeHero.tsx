@@ -7,7 +7,7 @@ export default function HomeHero() {
   return (
     <section className="bg-bgHeroSection bg-cover text-white p-12 pt-20">
       <div className="flex-col justify-center items-center">
-        <div className="grid grid-cols-2 gap-12 items-center justify-between">
+        <div className="grid grid-cols-2 gap-12 items-center justify-between mbl:flex mbl:flex-col">
           <div>
             <span className="text-product-pink">Plataforma</span>
             <div className="flex flex-col items-start justify-center gap-7 mt-3">
@@ -16,7 +16,7 @@ export default function HomeHero() {
                 <span className="font-bold">IntelliOn</span>
               </h1>
               <p>
-                Nosso site oferece aulas e artigos para ensinar idosos, crianças
+                O IntelliOn aulas e artigos para ensinar idosos, crianças
                 e pais a navegar na internet com segurança e de maneira correta.
                 Proteja-se contra ameaças online com nossos recursos confiáveis
                 e fáceis de entender.
@@ -28,11 +28,11 @@ export default function HomeHero() {
               </Link>
             </div>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center mbl:hidden">
             <img src={skillHero} alt="Homem utilizando um notebook" />
           </div>
         </div>
-        <div className="flex items-center justify-center gap-16 mt-16">
+        <div className="flex items-center justify-center gap-16 mt-16 mbl:flex-col mbl:gap-5">
           <div className="flex flex-col gap-2 items-start justify-center">
             <span className="text-xl font-semibold">O que oferecemos?</span>
             <Link to="/subscribe">
