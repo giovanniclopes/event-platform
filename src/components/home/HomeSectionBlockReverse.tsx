@@ -19,7 +19,7 @@ export default function HomeSectionBlockReverse(
         <div className="flex flex-col gap-5">
           <div className="flex flex-col gap-6">
             <h3 className="text-3xl font-medium">{props.title}</h3>
-            <p className="w-max mbl:w-auto">{props.description}</p>
+            <p className="w-full mbl:w-auto">{props.description}</p>
           </div>
           <div className="flex items-center justify-start gap-3">
             <Link to={props.button1Link}>
