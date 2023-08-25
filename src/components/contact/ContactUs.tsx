@@ -19,7 +19,7 @@ export default function ContactUs() {
             <p>Nos diga como podemos ajudar.</p>
           </div>
         </div>
-        <div className="mt-12 grid grid-cols-4 gap-5">
+        <div className="mt-12 grid grid-cols-4 gap-5 mbl:flex mbl:flex-col">
           <ContactUsBlock
             icon={<ChatTeardropDots size={24} className="text-product-pink" weight="regular" />}
             title={"Suporte via chat"}

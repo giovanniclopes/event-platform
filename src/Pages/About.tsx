@@ -9,9 +9,9 @@ interface InfosProps {
 
 export function Infos(props: InfosProps) {
   return (
-    <div className="flex flex-col gap-4 border border-black rounded w-80 p-5">
-      <p className="font-normal">{props.title}</p>
-      <span className="text-5xl font-semibold">{props.text}</span>
+    <div className="flex flex-col gap-4 border border-product-pink rounded w-80 p-5 transition-all hover:border-2">
+      <p className="font-medium text-lg">{props.title}</p>
+      <span className="text-5xl font-bold text-product-pink">{props.text}</span>
     </div>
   );
 }
@@ -43,15 +43,10 @@ export default function About() {
 
       <div className="flex flex-col items-center justify-center gap-16 my-28">
         <div className="flex flex-col items-center justify-center gap-4">
-          <h1 className="text-5xl font-semibold">Sobre Nós</h1>
-          <p className="w-5/6 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            magnam modi vitae amet ut. Reiciendis mollitia ipsa cupiditate
-            perspiciatis facilis.
-          </p>
+          <h1 className="text-4xl font-black uppercase">Quem <span className="text-product-pink">somos</span></h1>
         </div>
         <div className="flex flex-row items-start justify-start gap-12 px-12 mbl:flex mbl:flex-col">
-          <div className="w-1/2 mbl:w-full">
+          <div className="w-2/3 mbl:w-full">
             <img
               className="w-full h-full rounded"
               src={getInTouch}
@@ -59,25 +54,12 @@ export default function About() {
             />
           </div>
           <div className="flex flex-col gap-12 w-1/2 mbl:w-full">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sequi
-              nemo vitae iste! Similique corrupti architecto voluptas blanditiis
-              omnis cupiditate minima incidunt harum unde corporis, cumque
-              reprehenderit in qui nostrum voluptatibus natus velit maxime iste
-              delectus, dicta impedit tempore. Sed ipsum adipisci odio libero
-              aperiam vel architecto eum modi, cum voluptatem vitae enim autem
-              harum molestiae quasi id eius, nemo aut. Dignissimos pariatur
-              itaque facere? Ea alias at aliquam odit, porro ipsa culpa adipisci
-              iste laborum. Corrupti magni veniam natus expedita alias veritatis
-              nobis, consequatur minus quisquam quasi soluta, enim eveniet saepe
-              similique, reprehenderit aliquam! Accusamus voluptatem aspernatur
-              suscipit voluptatibus iusto placeat!
-              <br />
-              Aspernatur excepturi nobis quo architecto et, temporibus eos
-              velit, corporis odio non dolor deleniti explicabo maxime
-              voluptatem perspiciatis veniam aliquid? Accusantium amet
-              repellendus ipsum magni porro illo ea quo alias hic illum dicta
-              omnis commodi, soluta corporis nostrum.
+            <p className="text-xl leading-relaxed">
+              Somos um grupo de amigos que tivemos a ideia do IntelliOn na nossa
+              última feira de ciências na nossa escola no Ensino Fundamental, e
+              então nos juntamos e levamos o projeto para frente, e agora somos
+              reconhecidos por várias empresas pelas nossas aulas flexíveis e
+              muito explicativas.
             </p>
             <Link className="w-max" to="/contact">
               <button className=" flex items-center justify-center py-3 px-8 font-semibold text-product-pink border border-product-pink rounded transition-color hover:text-white hover:bg-product-pink">
@@ -91,16 +73,16 @@ export default function About() {
       <div className="flex items-center justify-center">
         <div className="grid grid-cols-3 items-center justify-center gap-24 mbl:flex mbl:flex-col">
           <Infos
-            title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas harum cupiditate mollitia?"
-            text="290+"
+            title="Alunos cadastrados"
+            text="+290"
           />
           <Infos
-            title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas harum cupiditate mollitia?"
-            text="290+"
+            title="Oportunidades de emprego"
+            text="+63"
           />
           <Infos
-            title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas harum cupiditate mollitia?"
-            text="290+"
+            title="Empresas parceiras"
+            text="+6"
           />
         </div>
       </div>

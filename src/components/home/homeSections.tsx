@@ -125,31 +125,31 @@ export default function HomeSections() {
           <Accordion
             title={"Capacitação e requalificação"}
             description={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, obcaecati voluptas? Nisi reprehenderit repellat maxime est asperiores! Esse ratione saepe voluptatum inventore quo, est dicta voluptate velit similique illum maxime vitae magni repellendus reprehenderit nam. Officiis voluptatum soluta mollitia blanditiis ratione. Ratione, eaque explicabo. Temporibus non maxime rerum error. Dicta!"
+              "Nós iremos criar inúmeras aulas diárias e deixa-las gravadas dentro da plataforma, permitindo que a pessoa veja quantos e quais vídeos na hora que querem, teremos uma equipe especial para monitorar até mesmo pessoas que irão aparecer nas aulas gravadas. Iremos qualificar o aluno de diversas formas, desde participação, com perguntas frequentes e aulas assistidas, até desafios que temos para cada aula e a instalação do mapa conceitual que nós mesmo fizemos para ajudar nos estudos."
             }
           />
           <Accordion
-            title={"Transformação na nuvem"}
+            title={"SAC"}
             description={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, obcaecati voluptas? Nisi reprehenderit repellat maxime est asperiores! Esse ratione saepe voluptatum inventore quo, est dicta voluptate velit similique illum maxime vitae magni repellendus reprehenderit nam. Officiis voluptatum soluta mollitia blanditiis ratione. Ratione, eaque explicabo. Temporibus non maxime rerum error. Dicta!"
+              "Nosso Sistema de Administração ou SAC, pode ser considerado como uma diretoria de uma escola por exemplo, lá você poderá reportas sobre qualquer coisa que não gostou, tanto de professores, sistema de avaliação, explicação, alunos, a plataforma em si para que podemos tomar ações preventivas e melhorar a cada dia com o seu feedback e avisos."
             }
           />
           <Accordion
             title={"Fluência em tecnologia"}
             description={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, obcaecati voluptas? Nisi reprehenderit repellat maxime est asperiores! Esse ratione saepe voluptatum inventore quo, est dicta voluptate velit similique illum maxime vitae magni repellendus reprehenderit nam. Officiis voluptatum soluta mollitia blanditiis ratione. Ratione, eaque explicabo. Temporibus non maxime rerum error. Dicta!"
+              "Não podemos dizer que uma pessoa tem 100% de fluência em alguma coisa, porém nossos professores estudam e pesquisam o bastante para dizer que são de um nível alto, seguindo de acordo com as perguntas dos alunos, é dever dos nossos professores responder esses alunos nas próximas aulas, então não se preocupe, sua dúvida sempre irá ser respondida, se ocorrer de não ser realizada a explicação, vá ao SAC (Sistema de Administração) e reportar o ocorrido."
             }
           />
           <Accordion
-            title={"Integração de engenharia"}
+            title={"Integração"}
             description={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, obcaecati voluptas? Nisi reprehenderit repellat maxime est asperiores! Esse ratione saepe voluptatum inventore quo, est dicta voluptate velit similique illum maxime vitae magni repellendus reprehenderit nam. Officiis voluptatum soluta mollitia blanditiis ratione. Ratione, eaque explicabo. Temporibus non maxime rerum error. Dicta!"
+              "Um projeto interligado ao nosso grupo é o SAM (Sistema Automatizado para Profissionais de Medicina), um aplicativo para médicos e seus pacientes reservarem data e hora mais facilmente, além do médico poder organizar os sintomas de seus devidos pacientes para ajudar em seu trabalho."
             }
           />
           <Accordion
-            title={"Entrega de software"}
+            title={"Parcerias"}
             description={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, obcaecati voluptas? Nisi reprehenderit repellat maxime est asperiores! Esse ratione saepe voluptatum inventore quo, est dicta voluptate velit similique illum maxime vitae magni repellendus reprehenderit nam. Officiis voluptatum soluta mollitia blanditiis ratione. Ratione, eaque explicabo. Temporibus non maxime rerum error. Dicta!"
+              "Temos parceria com diversas empresas profissionais na área da programação em si, como a cisco, cloudflare, microsoft, paloalto, IBM, crowdstrike, fortinet, dentre outras empresas, que, também estão nos patrocinando e ajudando de uma forma absurda."
             }
           />
           <Accordion
@@ -159,21 +159,15 @@ export default function HomeSections() {
             }
           />
           <Accordion
-            title={"Mobilidade de talentos"}
+            title={"Exploração da plataforma"}
             description={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, obcaecati voluptas? Nisi reprehenderit repellat maxime est asperiores! Esse ratione saepe voluptatum inventore quo, est dicta voluptate velit similique illum maxime vitae magni repellendus reprehenderit nam. Officiis voluptatum soluta mollitia blanditiis ratione. Ratione, eaque explicabo. Temporibus non maxime rerum error. Dicta!"
+              "Geralmente temos pessoas muito inexperientes na internet, por isso damos pelo menos uma aula grátis, onde explicamos como nossa plataforma funciona e como desenvolvemos ela para que nossos alunos ficam extremamente protegidos, tanto de bullying virtual quanto de hackers mal intencionados."
             }
           />
           <Accordion
-            title={"Equipes distribuídas e remotas"}
+            title={"Oportunidades"}
             description={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, obcaecati voluptas? Nisi reprehenderit repellat maxime est asperiores! Esse ratione saepe voluptatum inventore quo, est dicta voluptate velit similique illum maxime vitae magni repellendus reprehenderit nam. Officiis voluptatum soluta mollitia blanditiis ratione. Ratione, eaque explicabo. Temporibus non maxime rerum error. Dicta!"
-            }
-          />
-          <Accordion
-            title={"Academias de Oportunidade"}
-            description={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, obcaecati voluptas? Nisi reprehenderit repellat maxime est asperiores! Esse ratione saepe voluptatum inventore quo, est dicta voluptate velit similique illum maxime vitae magni repellendus reprehenderit nam. Officiis voluptatum soluta mollitia blanditiis ratione. Ratione, eaque explicabo. Temporibus non maxime rerum error. Dicta!"
+              "Tanto nas aulas quanto em nossos blogs, muitas vezes nós recomendamos vários tipos de trabalhos e empresas relacionados a área da informática que estão a procura de funcionários desesperadamente, dando uma oportunidade exclusiva para nossos alunos de conseguir um emprego para se sustentar."
             }
           />
         </div>
@@ -208,12 +202,6 @@ export default function HomeSections() {
                 }
               />
               <Accordion
-                title={"Laboratórios práticos"}
-                description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc malesuada ac magna ac eleifend. In non velit tincidunt, luctus orci id, pellentesque arcu. Etiam ante mauris, tempor et diam eu, finibus fringilla tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas vitae eros fringilla, eleifend ante tincidunt, efficitur justo. Suspendisse facilisis mauris at felis sollicitudin fermentum. Aenean elementum sit amet diam ut eleifend."
-                }
-              />
-              <Accordion
                 title={"Aulas ministradas por instrutores"}
                 description={
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc malesuada ac magna ac eleifend. In non velit tincidunt, luctus orci id, pellentesque arcu. Etiam ante mauris, tempor et diam eu, finibus fringilla tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas vitae eros fringilla, eleifend ante tincidunt, efficitur justo. Suspendisse facilisis mauris at felis sollicitudin fermentum. Aenean elementum sit amet diam ut eleifend."
@@ -240,7 +228,7 @@ export default function HomeSections() {
               imageURL={tryIntellionIntroductionCourse}
               title={"Introdução ao IntelliOn"}
               author={"Leonardo Coimbra"}
-              classLength={"45m"}
+              classLength={"25 min"}
               classDifficult={"Iniciante"}
             />
             <TryCourseBlock
@@ -248,7 +236,7 @@ export default function HomeSections() {
               imageURL={tryInternetIntroductionCourse}
               title={"Introdução à Internet e Navegação Online"}
               author={"Giovanni Lopes"}
-              classLength={"45m"}
+              classLength={"25 min"}
               classDifficult={"Iniciante"}
             />
             <TryCourseBlock
@@ -256,7 +244,7 @@ export default function HomeSections() {
               imageURL={tryCibersecurityIntroductionCourse}
               title={"Introdução ao Mundo Digital Protegido"}
               author={"Joab Estevam"}
-              classLength={"45m"}
+              classLength={"25 min"}
               classDifficult={"Iniciante"}
             />
           </div>

@@ -3,7 +3,7 @@ import { ArrowUpRight } from "phosphor-react";
 export default function Form() {
   return (
     <form className="flex flex-col w-full" action="">
-      <div className="w-full h-56 grid grid-cols-2 grid-rows-2 gap-x-12 mbl:h-full mbl:flex mbl:flex-col">
+      <div className="w-full h-56 grid grid-cols-2 grid-rows-2 gap-x-12 mbl:flex mbl:flex-col mbl:h-auto mbl:gap-y-8">
         <div className="flex flex-col gap-5">
           <div className="flex flex-col">
             <label className="text-lg font-normal mb-3" htmlFor="userName">
@@ -72,7 +72,7 @@ export default function Form() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col mbl:mt-7">
         <label className="text-lg font-normal mb-3" htmlFor="message">
           Sua mensagem <span className="text-red-500">*</span>
         </label>
