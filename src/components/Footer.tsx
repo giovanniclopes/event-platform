@@ -72,9 +72,21 @@ export function Footer() {
             reservados.
           </p>
         </div>
-        <div className="flex flex-row gap-8 mbl:text-xs">
-          <Link to="/termos-de-uso">Termos de uso</Link>
-          <Link to="/politica-de-privacidade">Política de Privacidade</Link>
+        <div className="flex flex-col gap-3 mbl:text-xs">
+          <div className="flex flex-row gap-8">
+            <Link to="/termos-de-uso">Termos de uso</Link>
+            <Link to="/politica-de-privacidade">Política de Privacidade</Link>
+          </div>
+          <div>
+            Desenvolvido por{" "}
+            <a
+              className="text-white"
+              href="https://giovannilopes.vercel.app"
+              target="_blank"
+            >
+              Giovanni Lopes
+            </a>
+          </div>
         </div>
       </div>
     </footer>

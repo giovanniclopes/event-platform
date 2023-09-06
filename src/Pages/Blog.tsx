@@ -29,7 +29,7 @@ export default function Blog() {
                 imageUrl:
                   "https://avatars.githubusercontent.com/u/92595678?v=4",
               },
-              date: "21/07/2005",
+              date: "15/07/2023",
             }}
           />
 
@@ -46,7 +46,7 @@ export default function Blog() {
                 imageUrl:
                   "https://avatars.githubusercontent.com/u/92595678?v=4",
               },
-              date: "21/07/2005",
+              date: "15/07/2023",
             }}
           />
 
@@ -64,7 +64,7 @@ export default function Blog() {
                 imageUrl:
                   "https://avatars.githubusercontent.com/u/92595678?v=4",
               },
-              date: "21/07/2005",
+              date: "15/07/2023",
             }}
           />
 
@@ -82,7 +82,7 @@ export default function Blog() {
                 imageUrl:
                   "https://avatars.githubusercontent.com/u/92595678?v=4",
               },
-              date: "21/07/2005",
+              date: "15/07/2023",
             }}
           />
 
@@ -99,7 +99,7 @@ export default function Blog() {
                 imageUrl:
                   "https://avatars.githubusercontent.com/u/92595678?v=4",
               },
-              date: "21/07/2005",
+              date: "15/07/2023",
             }}
           />
         </div>
