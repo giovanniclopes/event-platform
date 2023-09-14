@@ -10,9 +10,9 @@ export default function Certified() {
     <section className="p-20 mbl:text-center">
       <div className="flex flex-col items-center justify-center gap-10">
         <div>
-          <h3 className="text-2xl font-semibold">
+          <span className="text-2xl font-semibold">
             Certificado por empresas profissionais na área
-          </h3>
+          </span>
         </div>
         <div>
           <div className="flex flex-row items-center justify-center gap-16 mbl:flex-col mbl:gap-12">

@@ -9,7 +9,9 @@ export function Footer() {
           <h4 className="text-white">Suporte</h4>
           <ul className="flex flex-col gap-3">
             <Link className="w-min" to="/contact">
-              <li>Contato</li>
+              <ul>
+                <li>Contato</li>
+              </ul>
             </Link>
             <li>Centro de ajuda</li>
           </ul>
@@ -28,7 +30,9 @@ export function Footer() {
           <h4 className="text-white">Empresa</h4>
           <ul className="flex flex-col gap-3">
             <Link className="w-min" to="about">
-              <li className="w-max">Sobre Nós</li>
+              <ul>
+                <li className="w-max">Sobre Nós</li>
+              </ul>
             </Link>
             <li>Carreiras</li>
             <li>Recursos</li>
@@ -43,12 +47,14 @@ export function Footer() {
                 Email <span className="text-red-500">*</span>
               </label>
               <input
+              id="footer-form-input"
                 className="bg-product-lightPurple rounded p-2 text-white"
                 type="text"
+                aria-label="First Name"
               />
             </div>
             <div className="flex flex-crow gap-4">
-              <input type="checkbox" name="receiveEmail" id="receiveEmail" />
+              <input type="checkbox" name="receiveEmail" id="receiveEmail" aria-label="news from IntelliOn" />
               <span>Gostaria de receber emails da IntelliOn</span>
             </div>
             <input

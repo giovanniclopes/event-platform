@@ -28,6 +28,9 @@ export function Header() {
       <div className="block lg:hidden">
         <button
           onClick={() => setIsOpen(!isOpen)}
+          id="hamburguer-btn"
+          aria-label="Open or close hamburguer menu on mobile"
+          aria-labelledby="labeldiv"
           className="flex items-center px-3 py-2 rounded text-black-500 hover:text-black-400"
         >
           {isOpen ? (
