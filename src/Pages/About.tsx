@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import bgHeroAbout from "../assets/bg-hero-about.webp";
-import getInTouch from "../assets/get-in-touch.webp";
+import AboutUs from "../assets/about-us-img.jpg";
 
 interface InfosProps {
   title: string;
@@ -51,31 +51,25 @@ export default function About() {
           <div className="w-2/3 mbl:w-full">
             <img
               className="w-full h-full rounded"
-              src={getInTouch}
-              alt="Imagem para entrar em contato"
+              src={AboutUs}
+              alt="Imagem dos integrantes"
+              draggable="false"
             />
           </div>
           <div className="flex flex-col gap-12 w-1/2 mbl:w-full">
-            <p className="text-xl leading-relaxed indent-3">
-              Conheça a <span className="font-bold">IntelliOn</span>! Somos um
-              grupo de amigos que teve essa ideia incrível durante a feira de
-              ciências da escola. Agarramos a oportunidade e agora, aqui estamos
-              nós, sendo reconhecidos por várias empresas devido às nossas aulas
-              super flexíveis e de fácil compreensão. Imagine aprender a usar a
-              internet de forma tranquila, sem preocupações! Nós desenvolvemos
-              aulas e textos que ensinam como navegar na internet com total
-              segurança. O melhor de tudo? As nossas aulas são para todos -
-              idosos, crianças e pais podem aproveitar.
+            <p className="text-xl leading-relaxed">
+              Conheça a <span className="font-bold">IntelliOn</span>! Surgimos
+              como uma ideia entre amigos durante uma feira de ciências escolar
+              e agora estamos sendo reconhecidos por diversas empresas.
+              Desenvolvemos aulas simples e flexíveis para ensinar como usar a
+              internet com segurança. O melhor de tudo? Nossas aulas são para
+              todas as idades - idosos, crianças e pais podem participar.
               <br />
               <br />
-              <p className="text-xl leading-relaxed indent-3">
-                O que começou como uma ideia entre amigos, agora está ganhando
-                reconhecimento pelo nosso trabalho sólido. As empresas estão
-                percebendo a qualidade do que oferecemos. Com a IntelliOn, você
-                aprenderá as práticas para navegar na internet com confiança e
-                manter-se seguro. É isso, a IntelliOn está crescendo e ajudando
-                pessoas a terem uma experiência online tranquila. Junte-se a nós
-                nessa jornada de aprendizado e segurança na internet. <br />
+              <p className="text-xl leading-relaxed">
+                A IntelliOn está crescendo e ajudando as pessoas a terem uma
+                experiência online tranquila. Junte-se a nós nessa jornada de
+                aprendizado e segurança na internet. <br />
                 <span className="font-semibold text-product-pink">
                   Boas-vindas ao mundo IntelliOn
                 </span>
