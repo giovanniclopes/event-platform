@@ -3,6 +3,7 @@ import { CaretRight, DiscordLogo, FileArrowDown, Lightning, Spinner } from "phos
 
 import '@vime/core/themes/default.css';
 import { useGetLessonBySlugQuery } from "../graphql/generated";
+import { Link } from "react-router-dom";
 
 interface VideoProps {
     lessonSlug: string;
@@ -86,7 +87,7 @@ export function Video(props: VideoProps) {
                 </div>
 
                 <div className="gap-8 mt-20 grid grid-cols-2 mbl:grid-cols-1">
-                    <a href={''} className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
+                    <Link to={''} target="_blank" download={data.lesson.complementaryMaterial} className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
                         <div className="bg-product-purple h-full p-6 flex items-center">
                             <FileArrowDown size={40} />
                         </div>
@@ -99,7 +100,7 @@ export function Video(props: VideoProps) {
                         <div className="h-full p-6 flex items-center">
                             <CaretRight size={24} />
                         </div>
-                    </a>
+                    </Link>
 
                     <a href="" className="bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors">
                         <div className="bg-product-purple h-full p-6 flex items-center">
