@@ -27,7 +27,7 @@ export function Subscribe() {
 
   return (
     <div className="flex flex-col items-center bg-no-repeat bg-cover">
-      <div className="w-full max-w-[1100px] flex items-center justify-between my-20 mx-auto mbl:flex-col gap-8">
+      <div className="w-full max-w-[1100px] flex items-center justify-between my-20 mx-auto gap-8 mbl:flex-col mbl:my-5">
         <div className="max-w-[640px] mbl:max-w-[300px]">
           <h1 className="mt-8 text-[2.5rem] leading-tight font-bold mbl:text-2xl">
             Navegue com <strong className="text-product-pink">Segurança</strong>

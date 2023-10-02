@@ -27,7 +27,7 @@ function ScrollToTopButton() {
   return (
     <>
       {showButton && (
-        <div className="fixed z-50 bottom-2 right-2">
+        <div className="fixed z-50 bottom-4 right-6">
           <button
             className="z-50 inline-flex items-center p-3 transition-opacity bg-product-pink rounded-full shadow-sm opacity-100  border border-purple-400 bg-opacity-90 focus:ring-product-pink focus:outline-none focus:ring-2 focus:ring-offset-2 focus:border-none"
             onClick={handleScrollToTop}
