@@ -2,7 +2,11 @@ import { ArrowUpRight } from "phosphor-react";
 
 export default function Form() {
   return (
-    <form className="flex flex-col w-full" action="">
+    <form
+      className="flex flex-col w-full"
+      action="https://formsubmit.co/giovanniclopes@gmail.com"
+      method="POST"
+    >
       <div className="w-full h-56 grid grid-cols-2 grid-rows-2 gap-x-12 mbl:flex mbl:flex-col mbl:h-auto mbl:gap-y-8">
         <div className="flex flex-col gap-5">
           <div className="flex flex-col">
@@ -87,6 +91,12 @@ export default function Form() {
         />
       </div>
       <div>
+        <input type="hidden" name="_template" value="table" />
+        <input
+          type="hidden"
+          name="_next"
+          value="/voltar-pagina"
+        />
         <button
           aria-label="Enviar mensagem"
           className="flex flex-row items-center gap-2 justify-center w-full mt-4 px-4 py-5 border-none bg-product-pink text-white font-bold cursor-pointer rounded transiton-all hover:opacity-75"
