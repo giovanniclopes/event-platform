@@ -17,6 +17,7 @@ import IdentifyAndAvoidScamsOnInternetArticle from "./components/blog/IdentifyAn
 import ManagingTimeOnline from "./components/blog/ManagingTimeOnlineArticle";
 import DefinitiveGuideForParentsArticle from "./components/blog/DefinitiveGuideForParentsArticle";
 import SocialMediasArticle from "./components/blog/SocialMediasArticle";
+import ReturnPage from "./Pages/ReturnPage";
 
 export function Router() {
   return (
@@ -26,6 +27,7 @@ export function Router() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
       <Route path="/termos-de-uso" element={<TermsOfUse />} />
+      <Route path="/voltar-pagina" element={<ReturnPage />} />
 
       {/* aulas */}
       <Route path="/subscribe" element={<Subscribe />} />

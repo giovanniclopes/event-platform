@@ -6,6 +6,7 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import ScrollTopOnMount from "./components/ScrollTopOnMount";
+import WhatsappButton from "./components/WhatsappButton";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <ScrollTopOnMount />
         <Header />
         <Router />
+        <WhatsappButton />
         <ScrollToTopButton />
         <Footer />
       </BrowserRouter>
