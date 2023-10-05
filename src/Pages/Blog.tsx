@@ -21,7 +21,7 @@ export default function Blog() {
               title: "Dicas para proteger sua privacidade online",
               imageUrl:
                 "https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-              href: "https://google.com.br",
+              href: "/protect-online-privacy-article",
               description:
                 "Proteja-se na web com senhas fortes e ajustes de privacidade, evitando vazamentos de dados pessoais. 🛡️",
               author: {
@@ -38,7 +38,7 @@ export default function Blog() {
               title: "Como identificar e evitar golpes na internet",
               imageUrl:
                 "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-              href: "https://google.com.br",
+              href: "/identify-and-avoid-scams-on-internet-article",
               description:
                 "Aprenda a identificar e evitar golpes virtuais, como phishing e esquemas fraudulentos, mantendo-se seguro na web. 🚫",
               author: {
@@ -56,7 +56,7 @@ export default function Blog() {
                 "Gerenciando o tempo na internet: produtividade versus procrastinação",
               imageUrl:
                 "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80",
-              href: "https://google.com.br",
+              href: "/managing-time-online",
               description:
                 "Equilibre seu tempo na internet para ser mais produtivo, aproveitando ao máximo sem cair em distrações. ⏳💻",
               author: {
@@ -64,7 +64,7 @@ export default function Blog() {
                 imageUrl:
                   "https://avatars.githubusercontent.com/u/92595678?v=4",
               },
-              date: "15/07/2023",
+              date: "24/09/2023",
             }}
           />
 
@@ -74,7 +74,7 @@ export default function Blog() {
                 "O guia definitivo para pais: mantendo seus filhos seguros na internet",
               imageUrl:
                 "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-              href: "https://google.com.br",
+              href: "/definitive-guide-for-parents-article",
               description:
                 "Um guia essencial para proteger seus filhos na web, com dicas de controle parental e segurança digital. 👪🌐",
               author: {
@@ -82,7 +82,7 @@ export default function Blog() {
                 imageUrl:
                   "https://avatars.githubusercontent.com/u/92595678?v=4",
               },
-              date: "15/07/2023",
+              date: "12/10/2023",
             }}
           />
 
@@ -91,7 +91,7 @@ export default function Blog() {
               title: "Redes Sociais: Construindo uma Presença Digital Positiva",
               imageUrl:
                 "https://images.unsplash.com/photo-1579869847557-1f67382cc158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1634&q=80",
-              href: "https://google.com.br",
+              href: "/social-medias-article",
               description:
                 "Descubra como utilizar as redes sociais de forma consciente e positiva. Evite conflitos e a disseminação de fake news. 📲🤝✨",
               author: {
