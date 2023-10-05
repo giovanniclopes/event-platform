@@ -19,7 +19,7 @@ export default function ContactUs() {
             <p>Nos diga como podemos ajudar.</p>
           </div>
         </div>
-        <div className="mt-12 grid grid-cols-4 gap-5 mbl:flex mbl:flex-col">
+        <div className="w-max mt-12 grid grid-cols-3 items-center justify-center gap-5 mbl:flex mbl:flex-col">
           <ContactUsBlock
             icon={<ChatTeardropDots size={24} className="text-product-pink" weight="regular" />}
             title={"Suporte via chat"}
@@ -28,17 +28,10 @@ export default function ContactUs() {
             linkLabel={"IntelliOn Chat"}
           />
           <ContactUsBlock
-            icon={<MapPin size={24} className="text-product-pink" weight="regular" />}
-            title={"Nos Visite"}
-            description={"Visite nossa empresa."}
-            link={"https://goo.gl/maps/DcqtnZcfgW4BkJtF9"}
-            linkLabel={"Ver no Google Maps"}
-          />
-          <ContactUsBlock
             icon={<Phone size={24} className="text-product-pink" weight="regular" />}
             title={"Nos ligue"}
             description={"Seg-Sex das 08h-17h."}
-            link={"+551190000-0000"}
+            link={"#"}
             linkLabel={"+55 (11) 90000-0000"}
           />
           <ContactUsBlock

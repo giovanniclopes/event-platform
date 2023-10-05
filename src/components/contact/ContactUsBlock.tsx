@@ -19,7 +19,7 @@ export default function ContactUsBlock(props: ContactUsBlock) {
         <p className="text-sm">{props.description}</p>
       </div>
       <div>
-        <a className="text-sm font-bold underline text-product-pink" href={props.link} target="_blank">
+        <a className="text-sm font-bold underline text-product-pink" href={props.link}>
           {props.linkLabel}
         </a>
       </div>

@@ -87,9 +87,9 @@ export default function About() {
 
       <div className="flex items-center justify-center">
         <div className="grid grid-cols-3 items-center justify-center gap-24 mbl:flex mbl:flex-col">
-          <Infos title="Alunos cadastrados" text="+290" />
-          <Infos title="Oportunidades de emprego" text="+63" />
-          <Infos title="Empresas parceiras" text="+6" />
+          <Infos title="Alunos cadastrados" text={"+46"} />
+          <Infos title="Oportunidades de emprego" text={"+21"} />
+          <Infos title="Empresas parceiras" text={"+6"} />
         </div>
       </div>
     </main>
