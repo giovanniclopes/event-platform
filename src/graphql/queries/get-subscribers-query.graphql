@@ -1,0 +1,6 @@
+query GetSubscribers {
+  subscribers {
+    name
+    email
+  }
+}
