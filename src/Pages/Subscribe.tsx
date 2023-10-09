@@ -1,8 +1,6 @@
 import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/svg/logo-intellion.svg";
 import { useCreateSubscriberMutation } from "../graphql/generated";
-import codeMockup from "../assets/code-mockup.png";
 
 export function Subscribe() {
   const navigate = useNavigate();
