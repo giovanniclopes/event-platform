@@ -79,49 +79,40 @@
 
 import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
-import {
-  useCreateSubscriberMutation,
-  useGetSubscribersQuery,
-} from "../graphql/generated";
+import { useCreateSubscriberMutation } from "../graphql/generated";
+import { useGetSubscribersQuery } from "../graphql/generated";
+
+export async function checkIfSubscriberExists(name: any, email: any) {
+  try {
+    const { data } = useGetSubscribersQuery();
+
+    // A consulta SUBSCRIBER_EXISTS_QUERY deve retornar verdadeiro (se o usuário existe) ou falso (se não existe).
+    return data; // Supondo que a resposta da consulta seja "subscriberExists".
+  } catch (error) {
+    console.error("Erro ao verificar a existência do assinante: ", error);
+    throw error; // Lida com o erro de consulta, se necessário.
+  }
+}
 
 export function Subscribe() {
   const navigate = useNavigate();
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [loading, setLoading] = useState(false);
 
-  const { data } = useGetSubscribersQuery();
+  const [createSubscriber, { loading }] = useCreateSubscriberMutation();
 
   async function handleSubscribe(event: FormEvent) {
     event.preventDefault();
 
-    // Verifique se já existe um assinante com o mesmo nome e email
-    const subscriberExists = data?.subscribers.some(
-      (subscriber) => subscriber.name === name && subscriber.email === email
-    );
+    await createSubscriber({
+      variables: {
+        name,
+        email,
+      },
+    });
 
-    if (subscriberExists) {
-      console.error("Este nome e email já estão cadastrados.");
-      return;
-    }
-
-    setLoading(true);
-
-    try {
-      await useCreateSubscriberMutation({
-        variables: {
-          name,
-          email,
-        },
-      });
-
-      navigate("/classes");
-    } catch (error) {
-      console.error("Erro ao criar inscrição:", error);
-    } finally {
-      setLoading(false);
-    }
+    navigate("/classes");
   }
 
   return (
