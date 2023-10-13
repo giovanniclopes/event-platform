@@ -1,6 +1,6 @@
 # IntelliOn
 
-![Intellion Logo](https://intellion.vercel.app/assets/logo-intellion.4974de0e.svg))
+![Intellion Logo](https://intellion.vercel.app/assets/logo-intellion.4974de0e.svg)
 
 Intellion is a versatile class platform created with ReactJS/TypeScript, seamlessly integrated with the GraphCMS API. This README provides essential information about the project, its features, and how to get started.
 
