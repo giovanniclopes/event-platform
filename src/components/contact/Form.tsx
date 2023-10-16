@@ -42,7 +42,9 @@ export default function Form() {
               <option value="como-usar-redes-sociais">
                 Como usar redes sociais
               </option>
-              <option value="outro">Outro (escreva no campo 'mensagem' abaixo)</option>
+              <option value="outro">
+                Outro (escreva no campo 'mensagem' abaixo)
+              </option>
             </select>
           </div>
         </div>
