@@ -95,7 +95,7 @@ export default function Form() {
       </div>
       <div>
         <input type="hidden" name="_template" value="table" />
-        <input type="hidden" name="_next" value="https://intellion.vercel.app/voltar-pagina" />
+        <input type="hidden" name="_next" value="https://intellion.vercel.app/" />
         <button
           aria-label="Enviar mensagem"
           className="flex flex-row items-center gap-2 justify-center w-full mt-4 px-4 py-5 border-none bg-product-pink text-white font-bold cursor-pointer rounded transiton-all hover:opacity-75"
