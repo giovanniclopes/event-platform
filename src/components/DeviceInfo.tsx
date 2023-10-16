@@ -55,8 +55,8 @@ const DeviceInfo: React.FC = () => {
   };
 
   return (
-    <div className="bg-gray-200 p-4 px-12 rounded-lg w-fit mbl:px-5">
-      <h2 className="text-base font-semibold mb-2">Informações do aparelho</h2>
+    <div className="bg-gray-200 p-4 px-12 rounded-lg w-fit text-left mbl:px-5">
+      <h2 className="text-base font-semibold mb-2 text-center">Informações do aparelho</h2>
       <ul className="list-disc mbl:list-none">
         <li>
           {" "}
@@ -64,6 +64,7 @@ const DeviceInfo: React.FC = () => {
             Nome do aparelho: <span className="font-medium">{deviceName}</span>
           </p>
         </li>
+        <br />
         <li>
           {latitude !== null && longitude !== null && (
             <p>
@@ -74,11 +75,13 @@ const DeviceInfo: React.FC = () => {
             </p>
           )}
         </li>
+        <br />
         <li>
           <p>
             Data: <span className="font-medium">{currentDate}</span>
           </p>
         </li>
+        <br />
         <li>
           <p>
             Hora: <span className="font-medium">{currentTime}</span>

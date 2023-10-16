@@ -5,18 +5,18 @@ import { Router } from "./Router";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import ScrollToTopButton from "./components/ScrollToTopButton";
-import ScrollTopOnMount from "./components/ScrollTopOnMount";
 import WhatsappButton from "./components/WhatsappButton";
+import DevicePopupCorner from "./components/DevicePopupCorner";
 
 function App() {
   return (
     <ApolloProvider client={client}>
       <BrowserRouter>
-        <ScrollTopOnMount />
         <Header />
         <Router />
-        <WhatsappButton />
+        <DevicePopupCorner />
         <ScrollToTopButton />
+        <WhatsappButton />
         <Footer />
       </BrowserRouter>
     </ApolloProvider>

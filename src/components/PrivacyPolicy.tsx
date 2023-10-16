@@ -1,168 +1,114 @@
 export default function PrivacyPolicy() {
   return (
     <div className="p-12 py-24">
-      <h2 className="text-center mb-5">
-        <span className="text-[rgb(68, 68, 68)]">Política Privacidade</span>
-      </h2>
+      <h1 className="text-center mb-12 text-xl">Política de Privacidade</h1>
+
       <p>
-        <span className="text-[rgb(68, 68, 68)]">
-          A sua privacidade é importante para nós. É política do IntelliOn
-          respeitar a sua privacidade em relação a qualquer informação sua que
-          possamos coletar no site <a href="https://intellion.com">IntelliOn</a>
-          , e outros sites que possuímos e operamos.
-        </span>
+        <strong>Data de Efeito: 01/08/2023</strong>
       </p>
+
       <p>
-        <span className="text-[rgb(68, 68, 68)]">
-          Solicitamos informações pessoais apenas quando realmente precisamos
-          delas para lhe fornecer um serviço. Fazemo-lo por meios justos e
-          legais, com o seu conhecimento e consentimento. Também informamos por
-          que estamos coletando e como será usado.
-        </span>
+        A IntelliOn ("nós," "nosso" ou "nossos") está comprometida em proteger a
+        sua privacidade. Esta Política de Privacidade descreve como coletamos,
+        usamos e divulgamos as suas informações pessoais quando você visita o
+        nosso site. Ao acessar ou utilizar o nosso site, você concorda com os
+        termos desta Política de Privacidade.
       </p>
+
+      <h2>1. Informações que Coletamos</h2>
+
       <p>
-        <span className="text-[rgb(68, 68, 68)]">
-          Apenas retemos as informações coletadas pelo tempo necessário para
-          fornecer o serviço solicitado. Quando armazenamos dados, protegemos
-          dentro de meios comercialmente aceitáveis ​​para evitar perdas e
-          roubos, bem como acesso, divulgação, cópia, uso ou modificação não
-          autorizados.
-        </span>
+        <strong>a. Informações Pessoais:</strong> Podemos coletar informações
+        pessoais, incluindo, mas não se limitando a, o seu nome, endereço de
+        e-mail e outras informações que você fornece voluntariamente ao utilizar
+        os nossos serviços.
       </p>
+
       <p>
-        <span className="text-[rgb(68, 68, 68)]">
-          Não compartilhamos informações de identificação pessoal publicamente
-          ou com terceiros, exceto quando exigido por lei.
-        </span>
+        <strong>b. Informações do Dispositivo:</strong> Podemos coletar
+        informações sobre o seu dispositivo, como o tipo de dispositivo, sistema
+        operacional e navegador.
       </p>
+
       <p>
-        <span className="text-[rgb(68, 68, 68)]">
-          O nosso site pode ter links para sites externos que não são operados
-          por nós. Esteja ciente de que não temos controle sobre o conteúdo e
-          práticas desses sites e não podemos aceitar responsabilidade por suas
-          respectivas&nbsp;
-        </span>
-        <a
-          href="https://politicaprivacidade.com/"
-          rel="noopener noreferrer"
-          target="_blank"
-          className="text-[und-color: tran]parent; color: rgb(68, 68, 68);"
-        >
-          políticas de privacidade
-        </a>
-        <span className="text-[rgb(68, 68, 68)]">.</span>
+        <strong>c. Dados de Localização:</strong> Com o seu consentimento,
+        podemos coletar e processar informações sobre a sua localização
+        aproximada utilizando diversas tecnologias.
       </p>
+
+      <h2>2. Como Usamos as Suas Informações</h2>
+
+      <p>Utilizamos as suas informações para os seguintes fins:</p>
+
       <p>
-        <span className="text-[rgb(68, 68, 68)]">
-          Você é livre para recusar a nossa solicitação de informações pessoais,
-          entendendo que talvez não possamos fornecer alguns dos serviços
-          desejados.
-        </span>
+        <strong>a. Fornecer Serviços:</strong> Para fornecer os serviços que
+        você solicita e personalizar a sua experiência.
       </p>
+
       <p>
-        <span className="text-[rgb(68, 68, 68)]">
-          O uso continuado de nosso site será considerado como aceitação de
-          nossas práticas em torno de privacidade e informações pessoais. Se
-          você tiver alguma dúvida sobre como lidamos com dados do usuário e
-          informações pessoais, entre em contacto connosco.
-        </span>
+        <strong>b. Comunicação:</strong> Para nos comunicarmos com você e
+        responder às suas consultas.
       </p>
+
       <p>
-        <span className="text-[rgb(68, 68, 68)]">
-          <ul>
-            <li>
-              <span className="text-[rgb(68, 68, 68)]">
-                O serviço Google AdSense que usamos para veicular publicidade
-                usa um cookie DoubleClick para veicular anúncios mais relevantes
-                em toda a Web e limitar o número de vezes que um determinado
-                anúncio é exibido para você.
-              </span>
-            </li>
-            <li>
-              <span className="text-[rgb(68, 68, 68)]">
-                Para mais informações sobre o Google AdSense, consulte as FAQs
-                oficiais sobre privacidade do Google AdSense.
-              </span>
-            </li>
-            <li>
-              <span className="text-[rgb(68, 68, 68)]">
-                Utilizamos anúncios para compensar os custos de funcionamento
-                deste site e fornecer financiamento para futuros
-                desenvolvimentos. Os cookies de publicidade comportamental
-                usados ​​por este site foram projetados para garantir que você
-                forneça os anúncios mais relevantes sempre que possível,
-                rastreando anonimamente seus interesses e apresentando coisas
-                semelhantes que possam ser do seu interesse.
-              </span>
-            </li>
-            <li>
-              <span className="text-[rgb(68, 68, 68)]">
-                Vários parceiros anunciam em nosso nome e os cookies de
-                rastreamento de afiliados simplesmente nos permitem ver se
-                nossos clientes acessaram o site através de um dos sites de
-                nossos parceiros, para que possamos creditá-los adequadamente e,
-                quando aplicável, permitir que nossos parceiros afiliados
-                ofereçam qualquer promoção que pode fornecê-lo para fazer uma
-                compra.
-              </span>
-            </li>
-          </ul>
-          <p>
-            {" "}
-            <br />{" "}
-          </p>
-        </span>
+        <strong>c. Melhorar Serviços:</strong> Para analisar e melhorar o nosso
+        site, produtos e serviços.
       </p>
-      <h3>
-        <span className="text-[rgb(68, 68, 68)]">Compromisso do Usuário</span>
-      </h3>
+
       <p>
-        <span className="text-[rgb(68, 68, 68)]">
-          O usuário se compromete a fazer uso adequado dos conteúdos e da
-          informação que o IntelliOn oferece no site e com caráter enunciativo,
-          mas não limitativo:
-        </span>
+        <strong>d. Cumprimento Legal:</strong> Para cumprir com obrigações
+        legais e regulamentares.
       </p>
-      <ul>
-        <li>
-          <span className="text-[rgb(68, 68, 68)]">
-            A) Não se envolver em atividades que sejam ilegais ou contrárias à
-            boa fé a à ordem pública;
-          </span>
-        </li>
-        <li>
-          <span className="text-[rgb(68, 68, 68)]">
-            B) Não difundir propaganda ou conteúdo de natureza racista,
-            xenofóbica, jogos de sorte ou azar, qualquer tipo de pornografia
-            ilegal, de apologia ao terrorismo ou contra os direitos humanos;
-          </span>
-        </li>
-        <li>
-          <span className="text-[rgb(68, 68, 68)]">
-            C) Não causar danos aos sistemas físicos (hardwares) e lógicos
-            (softwares) do IntelliOn, de seus fornecedores ou terceiros, para
-            introduzir ou disseminar vírus informáticos ou quaisquer outros
-            sistemas de hardware ou software que sejam capazes de causar danos
-            anteriormente mencionados.
-          </span>
-        </li>
-      </ul>
-      <h3>
-        <span className="text-[rgb(68, 68, 68)]">Mais informações</span>
-      </h3>
+
+      <h2>3. Compartilhamento das Suas Informações</h2>
+
       <p>
-        <span className="text-[rgb(68, 68, 68)]">
-          Esperemos que esteja esclarecido e, como mencionado anteriormente, se
-          houver algo que você não tem certeza se precisa ou não, geralmente é
-          mais seguro deixar os cookies ativados, caso interaja com um dos
-          recursos que você usa em nosso site.
-        </span>
+        Nós não vendemos, comercializamos ou transferimos as suas informações
+        pessoais para terceiros. Podemos compartilhar as suas informações com
+        prestadores de serviços, parceiros comerciais ou quando exigido por lei.
       </p>
+
+      <h2>4. Segurança dos Dados</h2>
+
       <p>
-        <span className="text-[rgb(68, 68, 68)]">
-          Esta política é efetiva a partir de&nbsp;1 Agosto 2023 12:00
-        </span>
+        Implementamos medidas razoáveis de segurança para proteger os seus
+        dados. No entanto, nenhum método de transmissão pela internet ou
+        armazenamento eletrônico é completamente seguro.
       </p>
+
+      <h2>5. Cookies e Tecnologias de Rastreamento</h2>
+
+      <p>
+        Utilizamos cookies e tecnologias de rastreamento semelhantes para
+        aprimorar a sua experiência de navegação. Você pode gerenciar as suas
+        preferências para essas tecnologias nas configurações do seu navegador.
+      </p>
+
+      <h2>6. Links para Outros Sites</h2>
+
+      <p>
+        O nosso site pode conter links para outros sites. Não somos responsáveis
+        pelas práticas de privacidade desses sites. Por favor, reveja as suas
+        políticas de privacidade.
+      </p>
+
+      <h2>7. Alterações a esta Política de Privacidade</h2>
+
+      <p>
+        Podemos atualizar esta Política de Privacidade de tempos em tempos.
+        Quaisquer alterações serão postadas nesta página, e a política revisada
+        se aplicará a todas as informações coletadas.
+      </p>
+
+      <h2>8. Entre em Contato Conosco</h2>
+
+      <p>
+        Se tiver alguma dúvida ou preocupação relacionada a esta Política de
+        Privacidade, entre em contato conosco em:
+      </p>
+
+      <p>IntelliOn</p>
+      <p>[Inserir Informações de Contato]</p>
     </div>
   );
 }
