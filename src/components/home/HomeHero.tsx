@@ -16,7 +16,7 @@ export default function HomeHero() {
                 <span className="font-bold">IntelliOn</span>
               </h1>
               <p>
-                O IntelliOn aulas e artigos para ensinar idosos, crianças
+                O IntelliOn oferece aulas e artigos para ensinar idosos, crianças
                 e pais a navegar na internet com segurança e de maneira correta.
                 Proteja-se contra ameaças online com nossos recursos confiáveis
                 e fáceis de entender.

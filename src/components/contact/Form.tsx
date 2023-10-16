@@ -18,7 +18,7 @@ export default function Form() {
               type="text"
               name="userName"
               id="userName"
-              placeholder="Ex.: John Dee"
+              placeholder="Ex.: John Doe"
               required
             />
           </div>
@@ -42,6 +42,7 @@ export default function Form() {
               <option value="como-usar-redes-sociais">
                 Como usar redes sociais
               </option>
+              <option value="outro">Outro (escreva no campo 'mensagem' abaixo)</option>
             </select>
           </div>
         </div>
@@ -55,7 +56,7 @@ export default function Form() {
               type="email"
               name="userEmail"
               id="userEmail"
-              placeholder="Ex.: exemplo@exemplo.com"
+              placeholder="Ex.: johndoe@exemplo.com"
               required
             />
           </div>
@@ -92,11 +93,7 @@ export default function Form() {
       </div>
       <div>
         <input type="hidden" name="_template" value="table" />
-        <input
-          type="hidden"
-          name="_next"
-          value="/voltar-pagina"
-        />
+        <input type="hidden" name="_next" value="/voltar-pagina" />
         <button
           aria-label="Enviar mensagem"
           className="flex flex-row items-center gap-2 justify-center w-full mt-4 px-4 py-5 border-none bg-product-pink text-white font-bold cursor-pointer rounded transiton-all hover:opacity-75"

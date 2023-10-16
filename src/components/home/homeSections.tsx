@@ -179,32 +179,24 @@ export default function HomeSections() {
             <img src={skillsLogoIntellionExperience} alt="" />
           </div>
           <div className="flex flex-col gap-5">
-            <h3 className="text-3xl font-semibold">
-              A experiência do IntelliOn
-            </h3>
+            <h3 className="text-3xl font-semibold">A experiência IntelliOn</h3>
             <div>
               <Accordion
-                title={"Preparação para a certificação"}
+                title={"Incrementando suas habilidades"}
                 description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc malesuada ac magna ac eleifend. In non velit tincidunt, luctus orci id, pellentesque arcu. Etiam ante mauris, tempor et diam eu, finibus fringilla tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas vitae eros fringilla, eleifend ante tincidunt, efficitur justo. Suspendisse facilisis mauris at felis sollicitudin fermentum. Aenean elementum sit amet diam ut eleifend."
-                }
-              />
-              <Accordion
-                title={"Avaliações de habilidades"}
-                description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc malesuada ac magna ac eleifend. In non velit tincidunt, luctus orci id, pellentesque arcu. Etiam ante mauris, tempor et diam eu, finibus fringilla tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas vitae eros fringilla, eleifend ante tincidunt, efficitur justo. Suspendisse facilisis mauris at felis sollicitudin fermentum. Aenean elementum sit amet diam ut eleifend."
+                  "Desenvolva suas habilidades online, sprimore sua segurança na internet e expanda seu conhecimento. Nossos recursos estão aqui para ajudá-lo a se tornar um usuário mais experiente e confiante na web."
                 }
               />
               <Accordion
                 title={"Caminhos de aprendizado"}
                 description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc malesuada ac magna ac eleifend. In non velit tincidunt, luctus orci id, pellentesque arcu. Etiam ante mauris, tempor et diam eu, finibus fringilla tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas vitae eros fringilla, eleifend ante tincidunt, efficitur justo. Suspendisse facilisis mauris at felis sollicitudin fermentum. Aenean elementum sit amet diam ut eleifend."
+                  "Descubra os diferentes caminhos de aprendizado que oferecemos, adaptados para idosos, crianças e pais. Encontre o curso que melhor atende às suas necessidades e comece a sua jornada para uma navegação segura e informada na internet."
                 }
               />
               <Accordion
                 title={"Aulas ministradas por instrutores"}
                 description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc malesuada ac magna ac eleifend. In non velit tincidunt, luctus orci id, pellentesque arcu. Etiam ante mauris, tempor et diam eu, finibus fringilla tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas vitae eros fringilla, eleifend ante tincidunt, efficitur justo. Suspendisse facilisis mauris at felis sollicitudin fermentum. Aenean elementum sit amet diam ut eleifend."
+                  "Nossos instrutores estão aqui para orientar você em aulas interativas. Aprenda com professores experientes e adquira as habilidades necessárias para navegar com segurança na internet."
                 }
               />
             </div>
@@ -228,7 +220,7 @@ export default function HomeSections() {
               imageURL={tryIntellionIntroductionCourse}
               title={"Introdução à Internet e Navegação Online"}
               author={"Leonardo Coimbra"}
-              classLength={"25 min"}
+              classLength={"50 min"}
               classDifficult={"Iniciante"}
             />
             <TryCourseBlock
@@ -236,10 +228,12 @@ export default function HomeSections() {
               imageURL={tryCibersecurityIntroductionCourse}
               title={"Introdução ao Mundo Digital Protegido"}
               author={"Joab Estevam"}
-              classLength={"25 min"}
+              classLength={"59 min"}
               classDifficult={"Iniciante"}
             />
-            <span className="text-lg font-semibold text-white">+ Cursos estão por vir...</span>
+            <span className="text-lg font-semibold text-white">
+              + Cursos estão por vir...
+            </span>
           </div>
         </div>
       </section>

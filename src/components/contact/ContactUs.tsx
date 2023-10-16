@@ -22,17 +22,17 @@ export default function ContactUs() {
         <div className="w-max mt-12 grid grid-cols-3 items-center justify-center gap-5 mbl:flex mbl:flex-col">
           <ContactUsBlock
             icon={<ChatTeardropDots size={24} className="text-product-pink" weight="regular" />}
-            title={"Suporte via chat"}
+            title={"Suporte via email"}
             description={"Estamos aqui para ajudar."}
             link={"#"}
-            linkLabel={"IntelliOn Chat"}
+            linkLabel={"IntelliOn Mail"}
           />
           <ContactUsBlock
             icon={<Phone size={24} className="text-product-pink" weight="regular" />}
             title={"Nos ligue"}
             description={"Seg-Sex das 08h-17h."}
             link={"#"}
-            linkLabel={"+55 (11) 90000-0000"}
+            linkLabel={"Número temporariamente indisponível"}
           />
           <ContactUsBlock
             icon={<Lightbulb size={24} className="text-product-pink" weight="regular" />}

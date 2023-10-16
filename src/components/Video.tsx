@@ -82,7 +82,7 @@ export function Video(props: VideoProps) {
           </div>
 
           <div className="flex flex-col gap-4 mbl:mt-10">
-            <a
+            {/* <a
               href=""
               className="p-4 text-sm bg-product-purple flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-product-darkPurple transition-colors"
             >
@@ -96,7 +96,7 @@ export function Video(props: VideoProps) {
             >
               <Lightning size={24} />
               Acesse o desafio
-            </a>
+            </a> */}
           </div>
         </div>
 

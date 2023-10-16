@@ -82,6 +82,10 @@ const DevicePopupCorner: React.FC = () => {
                   <input type="checkbox" onChange={handleConsent} /> Eu concordo
                   com a coleta de dados.
                 </label>
+                <div className="flex justify-center items-center gap-4 mt-3">
+                  <a className="text-sm text-product-purple font-medium underline" href="/politica-de-privacidade">Política de Privacidade</a>
+                  <a className="text-sm text-product-purple font-medium underline" href="termos-de-uso">Termos de Uso</a>
+                </div>
                 <button
                   className="mt-5 bg-product-purple text-white font-medium px-4 py-3 rounded-md"
                   onClick={handleConsent}
