@@ -18,88 +18,135 @@ export default function ProtectOnlinePrivacyArticle() {
         </div>
 
         <div className="mt-6 prose prose-lg mx-64 text-lg text-gray-700 mbl:mx-1">
-          <strong>Introdução:</strong>
-          <br /><br />
-          No mundo digital de hoje, nossa privacidade online está constantemente
-          em risco. À medida que passamos mais tempo na internet, compartilhamos
-          informações pessoais e realizamos transações online, é crucial
-          garantir que nossos dados permaneçam seguros. Neste post, vamos
-          compartilhar 10 dicas essenciais para proteger sua privacidade online
-          e manter suas informações pessoais fora do alcance de olhares
-          indiscretos.
-          <br /><br />
-          <strong>1. Mantenha Senhas Fortes:</strong>
-          <br /><br />
-          Comece protegendo suas contas online com senhas fortes e exclusivas.
-          Evite senhas óbvias e use uma combinação de letras, números e
-          caracteres especiais. Considere o uso de um gerenciador de senhas
-          confiável para manter o controle de todas as suas credenciais.
-          <br /><br />
-          <strong>2. Ative a Autenticação de Dois Fatores (2FA):</strong>
-          <br /><br />
-          A autenticação de dois fatores adiciona uma camada extra de segurança
-          às suas contas. Sempre que possível, ative o 2FA para garantir que
-          apenas você possa acessar suas contas, mesmo que alguém tenha sua
-          senha.
-          <br /><br />
-          <strong>3. Use uma VPN (Rede Virtual Privada):</strong>
-          <br /><br />
-          Uma VPN oculta seu endereço IP real, tornando mais difícil para
-          terceiros rastrearem suas atividades online. Escolha uma VPN confiável
-          para manter sua conexão segura, especialmente ao usar Wi-Fi público.
-          <br /><br />
-          <strong>4. Mantenha Software Atualizado:</strong>
-          <br /><br />
-          Mantenha seu sistema operacional, navegadores e aplicativos sempre
-          atualizados. As atualizações frequentes geralmente incluem correções
-          de segurança que ajudam a proteger seu dispositivo contra ameaças
-          online.
-          <br /><br />
-          <strong>5. Cuidado com Phishing:</strong>
-          <br /><br />
-          Esteja atento a e-mails, mensagens e links suspeitos. Os golpistas
-          muitas vezes usam táticas de phishing para obter informações pessoais.
-          Nunca clique em links suspeitos e verifique cuidadosamente a origem
-          das mensagens.
-          <br /><br />
-          <strong>6. Revise as Configurações de Privacidade:</strong>
-          <br /><br />
-          Regularmente, reveja e ajuste as configurações de privacidade em suas
-          redes sociais e contas online. Limite o compartilhamento de
-          informações pessoais e reveja quem pode ver suas postagens.
-          <br /><br />
-          <strong>7. Use Navegação Privada:</strong>
-          <br /><br />
-          Ao fazer pesquisas sensíveis ou acessar contas bancárias, use a
-          navegação privada. Isso impede que o histórico de navegação seja salvo
-          no seu navegador.
-          <br /><br />
-          <strong>8. Esteja Ciente das Redes Wi-Fi Públicas:</strong>
-          <br /><br />
-          Evite fazer transações financeiras ou acessar contas importantes em
-          redes Wi-Fi públicas não seguras. Se precisar usá-las, conecte-se a
-          uma VPN para criptografar sua conexão.
-          <br /><br />
-          <strong>9. Limpe Seus Dados Regularmente:</strong>
-          <br /><br />
-          Limpe regularmente cookies, histórico de navegação e cache do seu
-          navegador. Isso ajuda a reduzir o rastreamento online.
-          <br /><br />
-          <strong>10. Eduque-se Continuamente:</strong>
-          <br /><br />
-          A tecnologia está sempre evoluindo, e as ameaças online também.
-          Mantenha-se atualizado sobre as melhores práticas de segurança
-          cibernética e esteja ciente das últimas tendências em ameaças online.
-          <br /><br />
-          Conclusão:
-          <br /><br />
-          Proteger sua privacidade online é uma responsabilidade que todos
-          devemos levar a sério. Ao seguir estas 10 dicas essenciais, você
-          estará dando passos significativos para manter suas informações
-          pessoais seguras enquanto navega na web. Lembre-se de que a
-          privacidade online é uma jornada contínua, e a vigilância constante é
-          fundamental para manter-se seguro no mundo digital de hoje.
-          <br /><br />
+          <article>
+            <p className="text-lg">
+              A privacidade online tornou-se uma preocupação crescente nos dias
+              de hoje, à medida que passamos mais tempo na internet e
+              compartilhamos informações pessoais em vários sites e plataformas.
+              A boa notícia é que existem medidas que você pode tomar para
+              proteger sua privacidade online e manter seus dados pessoais
+              seguros. Neste artigo, compartilharemos algumas dicas importantes
+              para ajudar a manter suas informações seguras.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Use senhas fortes e exclusivas
+            </h2>
+            <p className="text-lg">
+              Um dos passos mais importantes para proteger sua privacidade
+              online é criar senhas fortes e exclusivas para suas contas. Evite
+              senhas óbvias, como datas de nascimento ou sequências simples, e
+              opte por combinações de letras maiúsculas, minúsculas, números e
+              caracteres especiais. Use um gerenciador de senhas para manter o
+              controle de todas as suas credenciais com segurança.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Ative a autenticação de dois fatores
+            </h2>
+            <p className="text-lg">
+              A autenticação de dois fatores (2FA) é uma camada adicional de
+              segurança que torna mais difícil para invasores acessarem suas
+              contas. Ao ativar o 2FA, você precisará fornecer uma segunda forma
+              de autenticação além da senha, como um código enviado para o seu
+              telefone. Isso ajuda a proteger suas contas mesmo se sua senha for
+              comprometida.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Mantenha seu software atualizado
+            </h2>
+            <p className="text-lg">
+              Manter seu sistema operacional, navegadores e aplicativos
+              atualizados é fundamental para garantir a segurança online. As
+              atualizações muitas vezes incluem correções de segurança que
+              abordam vulnerabilidades conhecidas. Certifique-se de habilitar as
+              atualizações automáticas para uma proteção contínua.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Esteja ciente das configurações de privacidade
+            </h2>
+            <p className="text-lg">
+              Revise e ajuste as configurações de privacidade em todas as suas
+              contas e dispositivos. Muitas vezes, as configurações padrão podem
+              permitir o compartilhamento de informações mais do que você
+              gostaria. Limite o acesso a dados pessoais e compartilhe apenas o
+              que for estritamente necessário.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Tome cuidado com as redes Wi-Fi públicas
+            </h2>
+            <p className="text-lg">
+              O uso de redes Wi-Fi públicas pode ser arriscado, já que essas
+              redes geralmente não são seguras. Evite realizar transações
+              financeiras ou compartilhar informações sensíveis em redes
+              públicas. Se for necessário, use uma rede virtual privada (VPN)
+              para criptografar sua conexão e proteger seus dados.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Evite clicar em links suspeitos
+            </h2>
+            <p className="text-lg">
+              Phishing é uma técnica comum usada por criminosos online para
+              obter suas informações. Esteja atento a e-mails, mensagens e links
+              suspeitos. Não clique em links de fontes não confiáveis e nunca
+              forneça informações pessoais a menos que tenha certeza da
+              legitimidade do site ou da mensagem.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Limite as informações que você compartilha
+            </h2>
+            <p className="text-lg">
+              Reflita sobre as informações que você compartilha nas redes
+              sociais e em outros sites. Quanto mais informações pessoais você
+              divulga, maior é o risco de exposição. Compartilhe apenas o que
+              você se sente confortável em tornar público e evite revelar dados
+              sensíveis, como números de documentos ou números de cartões de
+              crédito.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Use um antivírus confiável</h2>
+            <p className="text-lg">
+              Ter um software antivírus confiável instalado em seu computador ou
+              dispositivo móvel é fundamental para proteger-se contra malware e
+              vírus. Certifique-se de manter o antivírus atualizado para
+              garantir a detecção eficaz de ameaças.
+            </p>
+            <br />
+
+            <p className="text-lg">
+              Proteger sua privacidade online é uma responsabilidade que todos
+              devem levar a sério. Ao seguir estas dicas e adotar boas práticas
+              de segurança digital, você estará mais bem preparado para manter
+              suas informações pessoais seguras enquanto desfruta da
+              conveniência da internet.
+            </p>
+
+            <br />
+
+            <p className="text-lg">
+              Tags: <a href="#senhas">senhas fortes</a>,{" "}
+              <a href="#autenticacao">autenticação de dois fatores</a>,{" "}
+              <a href="#atualizacoes">software atualizado</a>,{" "}
+              <a href="#privacidade">configurações de privacidade</a>,{" "}
+              <a href="#wifi">Wi-Fi público</a>,{" "}
+              <a href="#phishing">links suspeitos</a>,{" "}
+              <a href="#compartilhamento">compartilhamento de informações</a>,{" "}
+              <a href="#antivirus">antivírus</a>
+            </p>
+          </article>
         </div>
       </div>
     </div>

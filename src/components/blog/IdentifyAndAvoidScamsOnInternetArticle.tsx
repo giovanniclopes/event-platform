@@ -17,98 +17,102 @@ export default function IdentifyAndAvoidScamsOnInternetArticle() {
           </h1>
         </div>
         <div className="mt-6 prose prose-lg mx-64 text-lg text-gray-700 mbl:mx-1">
-          <strong>Introdução:</strong>
-          <br />
-          <br />
-          No mundo digital de hoje, a internet oferece inúmeras oportunidades,
-          mas também está repleta de golpes e armadilhas. Proteger-se contra
-          fraudes online é fundamental para navegar com segurança. Neste post,
-          vamos explorar como identificar e evitar golpes na internet para
-          garantir uma experiência online mais segura.
-          <br />
-          <br />
-          <strong>1. Desconfie de Ofertas Irresistíveis:</strong>
-          <br />
-          <br />
-          Se uma oferta parece boa demais para ser verdade, provavelmente é.
-          Golpistas frequentemente usam ofertas tentadoras para atrair vítimas.
-          Pesquise e verifique antes de comprar algo que pareça suspeito.
-          <br />
-          <br />
-          <strong>2. Verifique a Autenticidade de Websites:</strong>
-          <br />
-          <br />
-          Antes de inserir informações pessoais ou financeiras em um site,
-          certifique-se de que seja legítimo. Verifique se o URL começa com
-          "https://" e pesquise revisões ou reclamações sobre o site.
-          <br />
-          <br />
-          <strong>3. Cuidado com E-mails e Mensagens Suspeitas:</strong>
-          <br />
-          <br />
-          Golpistas frequentemente usam e-mails e mensagens falsas para enganar
-          as pessoas. Esteja atento a erros de ortografia, URLs suspeitos e
-          solicitações incomuns. Não clique em links ou baixe anexos de
-          remetentes desconhecidos.
-          <br />
-          <br />
-          <strong>4. Confirme a Identidade de Contatos Online:</strong>
-          <br />
-          <br />
-          Ao interagir com pessoas online, especialmente em redes sociais ou
-          aplicativos de mensagens, verifique se você está realmente conversando
-          com quem acredita ser. Perfis falsos são comuns em golpes.
-          <br />
-          <br />
-          <strong>5. Mantenha seu Antivírus Atualizado:</strong>
-          <br />
-          <br />
-          Ter um software antivírus confiável pode ajudar a detectar e bloquear
-          ameaças online. Mantenha-o atualizado para garantir a proteção
-          contínua.
-          <br />
-          <br />
-          <strong>6. Evite Enviar Dinheiro para Desconhecidos:</strong>
-          <br />
-          <br />
-          Nunca envie dinheiro para pessoas que você conheceu online, a menos
-          que tenha certeza de sua autenticidade. Golpistas muitas vezes pedem
-          dinheiro sob pretextos falsos.
-          <br />
-          <br />
-          <strong>7. Esteja Consciente de Golpes de Phishing:</strong>
-          <br />
-          <br />
-          Phishing é uma tática comum de golpe. Não compartilhe informações
-          pessoais ou financeiras por e-mail ou mensagens. Em caso de dúvida,
-          entre em contato diretamente com a empresa ou instituição.
-          <br />
-          <br />
-          <strong>8. Denuncie Golpes:</strong>
-          <br />
-          <br />
-          Se você suspeitar de um golpe, denuncie-o às autoridades locais ou às
-          plataformas online onde ocorreu a fraude. Sua ação pode ajudar a
-          prevenir futuras vítimas.
-          <br />
-          <br />
-          <strong>9. Eduque-se Continuamente:</strong>
-          <br />
-          <br />
-          Mantenha-se atualizado sobre os últimos golpes e técnicas de fraude
-          online. O conhecimento é uma das melhores defesas contra golpes na
-          internet.
-          <br />
-          <br />
-          <strong>Conclusão:</strong>
-          <br />
-          <br />
-          Navegar na internet com segurança envolve estar ciente das ameaças que
-          a cercam. Ao seguir estas dicas e permanecer vigilante, você pode
-          reduzir significativamente o risco de se tornar uma vítima de golpes
-          online. Proteja-se e desfrute de uma experiência online mais segura.
-          <br />
-          <br />
+          <article>
+            <p className="text-lg">
+              A expansão da internet trouxe inúmeras oportunidades, mas também
+              aumentou o risco de se deparar com golpes online. À medida que
+              passamos mais tempo conectados, é essencial saber como identificar
+              e evitar fraudes na internet. Neste artigo, compartilharemos dicas
+              valiosas para proteger sua segurança online.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Desconfie de ofertas muito boas para ser verdade
+            </h2>
+            <p className="text-lg">
+              Uma regra de ouro na internet é que se uma oferta parece boa
+              demais para ser verdade, provavelmente é. Golpistas frequentemente
+              usam promessas tentadoras para atrair vítimas. Esteja ciente de
+              promessas de enriquecimento rápido ou produtos milagrosos a preços
+              irrisórios.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Verifique a legitimidade dos sites
+            </h2>
+            <p className="text-lg">
+              Antes de fornecer informações pessoais ou financeiras a um site,
+              verifique se ele é legítimo. Procure por sinais de segurança, como
+              um cadeado na barra de endereço, e revise os comentários e
+              avaliações de outros usuários para obter feedback sobre a
+              confiabilidade do site.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Mantenha suas informações pessoais em sigilo
+            </h2>
+            <p className="text-lg">
+              Nunca compartilhe informações pessoais, como números de
+              documentos, senhas ou números de cartões de crédito, em resposta a
+              e-mails não solicitados ou em sites não confiáveis. Golpistas
+              frequentemente usam engenharia social para obter acesso a esses
+              dados.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Cuidado com e-mails de phishing
+            </h2>
+            <p className="text-lg">
+              E-mails de phishing são mensagens que tentam se passar por
+              instituições legítimas para enganar você e obter suas informações.
+              Esteja atento a e-mails que solicitam informações confidenciais ou
+              cliques em links suspeitos. Verifique sempre a legitimidade do
+              remetente.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Use uma rede virtual privada (VPN)
+            </h2>
+            <p className="text-lg">
+              O uso de uma VPN pode adicionar uma camada extra de segurança à
+              sua conexão com a internet, tornando mais difícil para os
+              golpistas rastrearem sua atividade online. Isso é especialmente
+              útil quando você está em redes Wi-Fi públicas.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Mantenha seu software atualizado
+            </h2>
+            <p className="text-lg">
+              Manter seu sistema operacional, navegadores e programas
+              atualizados é crucial para proteger-se contra vulnerabilidades
+              conhecidas. As atualizações frequentemente incluem correções de
+              segurança.
+            </p>
+            <br />
+
+            <p className="text-lg">
+              Ao seguir estas dicas, você estará mais preparado para identificar
+              e evitar golpes na internet. Proteger sua segurança online é
+              fundamental à medida que aproveitamos os benefícios da
+              conectividade digital.
+            </p>
+
+            <br />
+
+            <p className="text-lg">
+              Tags: <a href="#golpes">golpes online</a>,{" "}
+              <a href="#seguranca">segurança na internet</a>,{" "}
+              <a href="#phishing">e-mails de phishing</a>,{" "}
+              <a href="#VPN">rede virtual privada</a>
+            </p>
+          </article>
         </div>
       </div>
     </div>

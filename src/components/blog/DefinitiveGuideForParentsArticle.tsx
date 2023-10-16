@@ -19,102 +19,88 @@ export default function DefinitiveGuideForParentsArticle() {
         </div>
 
         <div className="mt-6 prose prose-lg mx-64 text-lg text-gray-700 mbl:mx-1">
-          <strong>Introdução:</strong>
-          <br />
-          <br />
-          A internet oferece inúmeras oportunidades educacionais e de
-          entretenimento para crianças, mas também traz desafios quando se trata
-          de segurança online. Neste guia, vamos compartilhar dicas e
-          estratégias para ajudar os pais a manter seus filhos seguros na
-          internet.
-          <br />
-          <br />
-          <strong>1. Comunique-se Abertamente:</strong>
-          <br />
-          <br />
-          Estabeleça um diálogo aberto com seus filhos sobre a importância da
-          segurança online. Encoraje-os a relatar qualquer experiência
-          desconfortável ou ameaça online.
-          <br />
-          <br />
-          <strong>2. Estabeleça Regras Claras:</strong>
-          <br />
-          <br />
-          Defina regras e limites para o tempo gasto online, o compartilhamento
-          de informações pessoais e o acesso a conteúdo apropriado para a idade.
-          <br />
-          <br />
-          <strong>3. Ensine o Conceito de Privacidade:</strong>
-          <br />
-          <br />
-          Explique aos seus filhos a importância de manter informações pessoais
-          em sigilo. Eles devem evitar compartilhar nomes completos, endereços,
-          números de telefone e informações de escola com estranhos online.
-          <br />
-          <br />
-          <strong>4. Utilize Controles Parentais:</strong>
-          <br />
-          <br />
-          Faça uso de ferramentas de controle parental para filtrar conteúdo
-          inadequado, estabelecer limites de tempo de uso e monitorar a
-          atividade online de seus filhos.
-          <br />
-          <br />
-          <strong>5. Acompanhe as Atividades Online:</strong>
-          <br />
-          <br />
-          Mantenha-se envolvido nas atividades online de seus filhos. Conheça os
-          sites que eles visitam, as redes sociais que usam e os aplicativos que
-          instalam.
-          <br />
-          <br />
-          <strong>6. Eduque Sobre Ciberbullying:</strong>
-          <br />
-          <br />
-          Ensine seus filhos a reconhecer e relatar situações de ciberbullying.
-          Esteja disponível para oferecer apoio emocional se eles enfrentarem
-          esse problema.
-          <br />
-          <br />
-          <strong>7. Fique Atento a Jogos Online:</strong>
-          <br />
-          <br />
-          Verifique os jogos online que seus filhos jogam. Alguns jogos permitem
-          interações com estranhos, portanto, é importante monitorar essas
-          interações.
-          <br />
-          <br />
-          <strong>8. Ensine Sobre Senhas Seguras:</strong>
-          <br />
-          <br />
-          Eduque seus filhos sobre a importância de senhas seguras e únicas para
-          cada conta. Isso ajuda a proteger suas informações contra invasões.
-          <br />
-          <br />
-          <strong>9. Aprenda Sobre Redes Sociais:</strong>
-          <br />
-          <br />
-          Familiarize-se com as redes sociais que seus filhos usam. Converse
-          sobre as configurações de privacidade e a importância de não aceitar
-          solicitações de amizade de estranhos.
-          <br />
-          <br />
-          <strong>10. Mantenha-se Atualizado:</strong>
-          <br />
-          <br />
-          A internet está em constante evolução. Continue educando-se sobre as
-          últimas tendências e desafios online para melhor orientar seus filhos.
-          <br />
-          <br />
-          <strong>Conclusão:</strong>
-          <br />
-          <br />
-          Manter seus filhos seguros na internet é uma responsabilidade
-          importante. Com comunicação aberta, educação e o uso adequado de
-          ferramentas de controle, você pode ajudar seus filhos a aproveitar os
-          benefícios da internet de forma segura e responsável.
-          <br />
-          <br />
+          <article>
+            <p className="text-lg">
+              Com o acesso cada vez mais comum à internet, é crucial que os pais
+              estejam cientes de como manter seus filhos seguros online. Este
+              guia abrangente oferece dicas e orientações para proteger seus
+              filhos enquanto eles exploram o mundo digital.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Converse com seus filhos</h2>
+            <p className="text-lg">
+              O diálogo é fundamental. Converse abertamente com seus filhos
+              sobre os riscos online, como o compartilhamento de informações
+              pessoais, o contato com estranhos e o bullying virtual. Estabeleça
+              uma linha de comunicação para que eles se sintam à vontade para
+              compartilhar qualquer preocupação.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Defina regras e limites</h2>
+            <p className="text-lg">
+              Estabeleça regras claras sobre o tempo de tela, sites permitidos e
+              conduta online. Limite o acesso a conteúdo inadequado para a idade
+              e monitore as atividades online de seus filhos, especialmente
+              quando são mais jovens.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Use controles parentais</h2>
+            <p className="text-lg">
+              Utilize ferramentas de controle parental para restringir o acesso
+              a determinados sites e aplicativos. Essas ferramentas permitem que
+              você acompanhe a atividade online de seus filhos e proteja-os de
+              conteúdo inapropriado.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Ensine habilidades de segurança online
+            </h2>
+            <p className="text-lg">
+              Eduque seus filhos sobre como proteger sua privacidade online,
+              criar senhas seguras e identificar ameaças cibernéticas. Ensine-os
+              a não compartilhar informações pessoais e a reconhecer e relatar
+              comportamento inadequado.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Esteja ciente das redes sociais
+            </h2>
+            <p className="text-lg">
+              Monitore a atividade de seus filhos em redes sociais e ajude-os a
+              configurar configurações de privacidade adequadas. Converse sobre
+              os riscos de compartilhar informações e imagens pessoais online.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Mantenha um equilíbrio</h2>
+            <p className="text-lg">
+              Encoraje seus filhos a equilibrar o tempo online com atividades
+              offline. Estimule atividades ao ar livre, interações sociais e
+              tempo de qualidade em família.
+            </p>
+            <br />
+
+            <p className="text-lg">
+              Ao seguir este guia, você estará melhor preparado para manter seus
+              filhos seguros na internet. A supervisão atenta e a educação sobre
+              segurança online são essenciais para permitir que seus filhos
+              desfrutem da internet com segurança.
+            </p>
+
+            <br />
+
+            <p className="text-lg">
+              Tags: <a href="#seguranca">segurança na internet</a>,{" "}
+              <a href="#controle">controle parental</a>,{" "}
+              <a href="#educacao">educação online</a>,{" "}
+              <a href="#redes_sociais">redes sociais</a>
+            </p>
+          </article>
         </div>
       </div>
     </div>

@@ -19,102 +19,88 @@ export default function ManagingTimeOnlineArticle() {
         </div>
 
         <div className="mt-6 prose prose-lg mx-64 text-lg text-gray-700 mbl:mx-1">
-          <strong>Introdução:</strong>
-          <br />
-          <br />
-          A internet oferece um mundo de informações e entretenimento, mas
-          também pode ser um grande desafio quando se trata de gerenciar o tempo
-          de forma produtiva. Neste post, vamos explorar estratégias para
-          equilibrar a produtividade e evitar a procrastinação ao utilizar a
-          internet.
-          <br />
-          <br />
-          <strong>1. Defina Metas e Prioridades:</strong>
-          <br />
-          <br />
-          Antes de começar a navegar, estabeleça metas claras para o que você
-          deseja realizar online. Priorize tarefas importantes e mantenha o foco
-          nelas.
-          <br />
-          <br />
-          <strong>2. Use Aplicativos de Bloqueio de Sites:</strong>
-          <br />
-          <br />
-          Utilize aplicativos ou extensões de navegador que bloqueiam o acesso a
-          sites não relacionados ao trabalho ou estudo durante determinados
-          períodos de tempo.
-          <br />
-          <br />
-          <strong>3. Adote a Técnica Pomodoro:</strong>
-          <br />
-          <br />
-          A técnica Pomodoro envolve trabalhar por um curto período, como 25
-          minutos, seguido de uma pausa de 5 minutos. Isso ajuda a manter o foco
-          e evitar a procrastinação.
-          <br />
-          <br />
-          <strong>4. Organize Suas Abas e Favoritos:</strong>
-          <br />
-          <br />
-          Mantenha suas abas de navegador organizadas e salve os sites que você
-          mais usa como favoritos para facilitar o acesso rápido e eficiente.
-          <br />
-          <br />
-          <strong>
-            5. Estabeleça Horários para Checar E-mails e Redes Sociais:
-          </strong>
-          <br />
-          <br />
-          Evite verificar constantemente e-mails e redes sociais. Em vez disso,
-          defina horários específicos para essas atividades.
-          <br />
-          <br />
-          <strong>6. Aprenda a Dizer "Não" para Distrações:</strong>
-          <br />
-          <br />
-          Seja firme ao dizer "não" para distrações online. Evite ceder à
-          tentação de verificar notificações a todo momento.
-          <br />
-          <br />
-          <strong>7. Use Ferramentas de Produtividade:</strong>
-          <br />
-          <br />
-          Existem muitas ferramentas online, como aplicativos de gerenciamento
-          de tarefas, que podem ajudá-lo a organizar seu tempo e tarefas de
-          forma eficaz.
-          <br />
-          <br />
-          <strong>8. Avalie Seu Progresso:</strong>
-          <br />
-          <br />
-          Regularmente, avalie o seu progresso e a maneira como você está usando
-          seu tempo online. Faça ajustes conforme necessário.
-          <br />
-          <br />
-          <strong>9. Pratique o Autodomínio:</strong>
-          <br />
-          <br />
-          O autodomínio é essencial. Trabalhe para melhorar sua capacidade de
-          resistir à tentação de perder tempo online.
-          <br />
-          <br />
-          <strong>10. Encontre um Equilíbrio:</strong>
-          <br />
-          <br />
-          Lembre-se de que a internet não precisa ser apenas produtiva; ela
-          também pode ser uma fonte de entretenimento e relaxamento. Encontre um
-          equilíbrio saudável entre o trabalho e o lazer online.
-          <br />
-          <br />
-          <strong>Conclusão:</strong>
-          <br />
-          <br />
-          Gerenciar o tempo na internet é um desafio, mas com as estratégias
-          certas, você pode aumentar sua produtividade e reduzir a
-          procrastinação. Aproveite ao máximo o mundo online, mantendo o foco em
-          suas metas e prioridades.
-          <br />
-          <br />
+          <article>
+            <p className="text-lg">
+              A internet é uma ferramenta poderosa que pode ser usada tanto para
+              aumentar a produtividade quanto para causar procrastinação. Neste
+              artigo, exploraremos dicas e estratégias para ajudá-lo a
+              equilibrar o uso da internet, aproveitando seu tempo com
+              eficiência.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Defina metas e prioridades</h2>
+            <p className="text-lg">
+              Antes de começar suas sessões de navegação na internet, defina
+              metas e prioridades. Saiba o que você deseja realizar e
+              concentre-se nas tarefas mais importantes. Evite se perder em
+              distrações online.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Use aplicativos de produtividade
+            </h2>
+            <p className="text-lg">
+              Existem muitos aplicativos e extensões de navegador projetados
+              para aumentar a produtividade. Ferramentas como listas de tarefas,
+              bloqueadores de sites e aplicativos de gerenciamento de tempo
+              podem ajudar a manter o foco e evitar distrações online.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Estabeleça limites de tempo</h2>
+            <p className="text-lg">
+              Defina limites de tempo para suas atividades online. Por exemplo,
+              reserve um tempo específico para verificar e-mails ou redes
+              sociais e limite o tempo gasto nessas atividades. Use alarmes ou
+              lembretes para garantir que você não ultrapasse seus limites.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Elimine distrações</h2>
+            <p className="text-lg">
+              Identifique as principais distrações online e tome medidas para
+              eliminá-las. Isso pode incluir desativar notificações de redes
+              sociais, usar bloqueadores de sites ou criar um ambiente de
+              trabalho livre de distrações.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Pratique a autorregulação</h2>
+            <p className="text-lg">
+              A autorregulação é a chave para o gerenciamento eficaz do tempo na
+              internet. Desenvolva a capacidade de reconhecer quando você está
+              procrastinando e redirecione seu foco para tarefas produtivas.
+              Isso requer prática e autoconsciência.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Tire pausas estruturadas</h2>
+            <p className="text-lg">
+              Pausas regulares são importantes para manter a produtividade.
+              Planeje pausas curtas entre as atividades para recarregar sua
+              energia e evitar a exaustão. Use esse tempo para relaxar e
+              desconectar-se da internet.
+            </p>
+            <br />
+
+            <p className="text-lg">
+              Gerenciar seu tempo na internet é essencial para equilibrar a
+              produtividade e evitar a procrastinação. Com as estratégias
+              certas, você pode aproveitar ao máximo essa ferramenta poderosa e
+              alcançar seus objetivos com eficiência.
+            </p>
+
+            <br />
+
+            <p className="text-lg">
+              Tags: <a href="#produtividade">produtividade online</a>,{" "}
+              <a href="#procrastinacao">procrastinação na internet</a>,{" "}
+              <a href="#gerenciamento">gerenciamento de tempo</a>,{" "}
+              <a href="#autorregulacao">autorregulação</a>
+            </p>
+          </article>
         </div>
       </div>
     </div>

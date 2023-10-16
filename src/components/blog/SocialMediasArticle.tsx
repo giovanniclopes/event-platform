@@ -17,99 +17,89 @@ export default function SocialMediasArticle() {
           </h1>
         </div>
         <div className="mt-6 prose prose-lg mx-64 text-lg text-gray-700 mbl:mx-1">
-          <strong>Introdução:</strong>
-          <br />
-          <br />
-          As redes sociais desempenham um papel fundamental na forma como nos
-          conectamos, compartilhamos e nos expressamos online. Neste post,
-          exploraremos a importância de construir uma presença digital positiva
-          nas redes sociais e como isso pode impactar sua vida pessoal e
-          profissional.
-          <br />
-          <br />
-          <strong>1. Seja Autêntico:</strong>
-          <br />
-          <br />
-          A autenticidade é a chave para construir uma presença digital
-          positiva. Seja você mesmo nas redes sociais, compartilhando suas
-          opiniões, interesses e valores reais.
-          <br />
-          <br />
-          <strong>2. Cuide de Sua Imagem Online:</strong>
-          <br />
-          <br />
-          Lembre-se de que tudo o que você posta online pode ser acessado por
-          outras pessoas. Pense cuidadosamente antes de compartilhar fotos,
-          comentários ou informações pessoais.
-          <br />
-          <br />
-          <strong>3. Promova o Respeito e a Empatia:</strong>
-          <br />
-          <br />
-          Interaja com os outros de maneira respeitosa e empática. Evite
-          discussões acaloradas e contribua para um ambiente online positivo.
-          <br />
-          <br />
-          <strong>4. Gerencie suas Configurações de Privacidade:</strong>
-          <br />
-          <br />
-          Revise e ajuste suas configurações de privacidade nas redes sociais
-          para controlar quem pode ver suas postagens e informações pessoais.
-          <br />
-          <br />
-          <strong>5. Seja Consciente do Conteúdo Compartilhado:</strong>
-          <br />
-          <br />
-          Verifique a veracidade das informações antes de compartilhá-las.
-          Desinformação e notícias falsas podem prejudicar sua credibilidade.
-          <br />
-          <br />
-          <strong>6. Participe em Conversas Construtivas:</strong>
-          <br />
-          <br />
-          Engaje-se em conversas que promovam o aprendizado e a compreensão
-          mútua. Evite alimentar polêmicas sem sentido.
-          <br />
-          <br />
-          <strong>7. Mostre Seu Trabalho e Conquistas:</strong>
-          <br />
-          <br />
-          Use suas redes sociais para destacar suas realizações, projetos e
-          paixões. Isso pode ser valioso para sua carreira e interesses
-          pessoais.
-          <br />
-          <br />
-          <strong>8. Esteja Consciente de Sua Marca Pessoal:</strong>
-          <br />
-          <br />
-          Considere como sua presença nas redes sociais contribui para sua marca
-          pessoal. O que você compartilha diz muito sobre quem você é.
-          <br />
-          <br />
-          <strong>9. Aprenda com Experiências Passadas:</strong>
-          <br />
-          <br />
-          Reflita sobre suas interações passadas nas redes sociais. Use essas
-          experiências para crescer e melhorar sua presença digital.
-          <br />
-          <br />
-          <strong>10. Desconecte Quando Necessário:</strong>
-          <br />
-          <br />
-          Lembre-se de que é saudável desconectar de vez em quando. Reserve
-          tempo para estar offline e desfrutar do mundo real.
-          <br />
-          <br />
-          <strong>Conclusão:</strong>
-          <br />
-          <br />
-          Sua presença digital nas redes sociais pode ser uma ferramenta
-          poderosa para construir relacionamentos, avançar em sua carreira e
-          compartilhar suas paixões. Ao adotar uma abordagem positiva e
-          responsável, você pode construir uma presença digital que beneficie
-          tanto você quanto a comunidade online em geral.
-          <br />
-          <br />
+          <article>
+            <p className="text-lg">
+              As redes sociais desempenham um papel significativo em nossa vida
+              online. Este guia tem como objetivo ajudá-lo a construir uma
+              presença digital positiva e saudável nas redes sociais, promovendo
+              relacionamentos, oportunidades e impacto positivo.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Defina seus objetivos</h2>
+            <p className="text-lg">
+              Antes de mergulhar nas redes sociais, defina seus objetivos. Você
+              está buscando conexões pessoais, oportunidades profissionais ou
+              compartilhando seu conhecimento? Ter um propósito claro ajudará a
+              direcionar suas atividades online.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Seja autêntico</h2>
+            <p className="text-lg">
+              A autenticidade é valorizada nas redes sociais. Seja você mesmo e
+              compartilhe sua verdadeira personalidade. Evite a tentação de
+              criar uma persona falsa, pois isso pode prejudicar sua presença
+              online a longo prazo.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">Crie conteúdo valioso</h2>
+            <p className="text-lg">
+              Compartilhe conteúdo que seja informativo, inspirador ou
+              divertido. Ofereça valor aos seus seguidores, seja por meio de
+              dicas, histórias pessoais ou conhecimento especializado. A
+              qualidade é mais importante do que a quantidade.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Interaja e construa relacionamentos
+            </h2>
+            <p className="text-lg">
+              Interaja com seus seguidores de maneira autêntica. Responda a
+              comentários, participe de conversas e construa relacionamentos
+              genuínos. A interação positiva fortalece sua presença digital.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Mantenha a privacidade em mente
+            </h2>
+            <p className="text-lg">
+              Esteja ciente das configurações de privacidade e compartilhe
+              apenas o que você está confortável compartilhando publicamente.
+              Proteja suas informações pessoais e esteja atento a configurações
+              de privacidade em constante mudança.
+            </p>
+            <br />
+
+            <h2 className="font-medium text-lg">
+              Evite polêmicas e discurso de ódio
+            </h2>
+            <p className="text-lg">
+              Mantenha um tom respeitoso e evite se envolver em polêmicas ou
+              disseminar discurso de ódio. Contribua para um ambiente online
+              positivo e construtivo.
+            </p>
+            <br />
+
+            <p className="text-lg">
+              Com foco nessas diretrizes, você pode construir uma presença
+              digital positiva e significativa nas redes sociais. Lembre-se de
+              que suas ações online têm o poder de influenciar e inspirar, então
+              use suas plataformas com sabedoria.
+            </p>
+
+            <br />
+
+            <p className="text-lg">
+              Tags: <a href="#redes_sociais">redes sociais</a>,{" "}
+              <a href="#presenca_digital">presença digital</a>,{" "}
+              <a href="#autenticidade">autenticidade online</a>,{" "}
+              <a href="#conteudo_valioso">conteúdo valioso</a>
+            </p>
+          </article>
         </div>
       </div>
     </div>
