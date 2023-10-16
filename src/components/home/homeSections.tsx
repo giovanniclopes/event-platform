@@ -226,16 +226,8 @@ export default function HomeSections() {
             <TryCourseBlock
               btnLink=""
               imageURL={tryIntellionIntroductionCourse}
-              title={"Introdução ao IntelliOn"}
-              author={"Leonardo Coimbra"}
-              classLength={"25 min"}
-              classDifficult={"Iniciante"}
-            />
-            <TryCourseBlock
-              btnLink=""
-              imageURL={tryInternetIntroductionCourse}
               title={"Introdução à Internet e Navegação Online"}
-              author={"Giovanni Lopes"}
+              author={"Leonardo Coimbra"}
               classLength={"25 min"}
               classDifficult={"Iniciante"}
             />
@@ -247,6 +239,7 @@ export default function HomeSections() {
               classLength={"25 min"}
               classDifficult={"Iniciante"}
             />
+            <span className="text-lg font-semibold text-white">+ Cursos estão por vir...</span>
           </div>
         </div>
       </section>
