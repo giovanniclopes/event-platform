@@ -10,11 +10,11 @@ interface ContactUsBlock {
 
 export default function ContactUsBlock(props: ContactUsBlock) {
   return (
-    <div className="flex flex-col gap-3 p-4 pr-20 pb-5 border border-black rounded-lg mbl:items-center mbl:justify-center mbl:pr-auto mbl:px-12">
+    <div className="flex flex-col gap-3 p-4 pr-20 pb-5 border border-black rounded-lg mbl:items-center mbl:justify-center mbl:py-5 mbl:px-6 mbl:w-full">
       <div className="p-2 border border-product-pink w-max rounded-lg">
         <>{props.icon}</>
       </div>
-      <div className="flex flex-col gap-1 mt-9 mbl:text-center">
+      <div className="flex flex-col gap-1 mt-9 mbl:text-center mbl:mt-2">
         <h4 className="text-lg font-medium">{props.title}</h4>
         <p className="text-sm">{props.description}</p>
       </div>

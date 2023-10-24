@@ -8,11 +8,11 @@ export default function Contact() {
       <div className="flex flex-col gap-20">
         <div className="mbl:px-5">
           <h1 className="text-5xl font-bold mbl:text-3xl">
-            Gostaríamos de ouvir você, <br /> Entre em contato 👋
+            Gostaríamos de ouvir você, <br className="mbl:hidden" /> Entre em contato 👋
           </h1>
         </div>
         <div>
-          <div className="flex flex-col gap-36 w-[1150px] mbl:w-auto mbl:px-8">
+          <div className="flex flex-col gap-28 mbl:w-auto">
             <Form />
             <ContactUs />
             <FrequentlyAskedQuestions />

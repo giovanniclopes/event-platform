@@ -2,7 +2,7 @@ import Accordion from "../Accordion";
 
 export default function FrequentlyAskedQuestions() {
   return (
-    <div className="flex flex-col gap-12 mt-12">
+    <div className="flex flex-col gap-12 mt-12 mbl:px-5">
       <div className="flex flex-col items-center justify-center">
         <h3 className="text-3xl font-semibold">Perguntas frequentes</h3>
       </div>

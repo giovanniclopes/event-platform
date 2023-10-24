@@ -3,12 +3,12 @@ import { ArrowUpRight } from "phosphor-react";
 export default function Form() {
   return (
     <form
-      className="flex flex-col w-full"
+      className="flex flex-col w-full mbl:px-5"
       action="https://formsubmit.co/giovanniclopes@gmail.com"
       method="POST"
     >
       <div className="w-full h-56 grid grid-cols-2 grid-rows-2 gap-x-12 mbl:flex mbl:flex-col mbl:h-auto mbl:gap-y-8">
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 mbl:hidden">
           <div className="flex flex-col">
             <label className="text-lg font-normal mb-3" htmlFor="userName">
               Seu nome <span className="text-red-500">*</span>
@@ -49,6 +49,19 @@ export default function Form() {
           </div>
         </div>
         <div className="flex flex-col gap-6">
+          <div className="hidden mbl:flex mbl:flex-col">
+            <label className="text-lg font-normal mb-3" htmlFor="userName">
+              Seu nome <span className="text-red-500">*</span>
+            </label>
+            <input
+              className="p-3 rounded-lg rounded-b-none bg-gray-50 font-normal border border-gray-100 border-b-product-pink transition-all placeholder:text-gray-300 focus:ring-1 focus:ring-product-purple focus:rounded focus:outline-0 focus:border-0"
+              type="text"
+              name="userName"
+              id="userName"
+              placeholder="Ex.: John Doe"
+              required
+            />
+          </div>
           <div className="flex flex-col">
             <label className="text-lg font-normal mb-3" htmlFor="userEmail">
               Seu email <span className="text-red-500">*</span>
@@ -95,7 +108,11 @@ export default function Form() {
       </div>
       <div>
         <input type="hidden" name="_template" value="table" />
-        <input type="hidden" name="_next" value="https://intellion.vercel.app/" />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://intellion.vercel.app/"
+        />
         <button
           aria-label="Enviar mensagem"
           className="flex flex-row items-center gap-2 justify-center w-full mt-4 px-4 py-5 border-none bg-product-pink text-white font-bold cursor-pointer rounded transiton-all hover:opacity-75"
