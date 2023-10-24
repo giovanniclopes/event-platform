@@ -21,7 +21,7 @@ const ReturnPage: React.FC = () => {
   }, [navigate]);
 
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen mbl:px-5 ">
       <div className="bg-product-purple p-12 rounded-lg text-white text-center">
         <p className="text-2xl mb-4">
           Redirecionando para a página anterior em {count} segundos...

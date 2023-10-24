@@ -136,7 +136,7 @@ export default function ProtectOnlinePrivacyArticle() {
 
             <br />
 
-            <p className="text-lg">
+            <p className="text-lg text-product-purple underline">
               Tags: <a href="#senhas">senhas fortes</a>,{" "}
               <a href="#autenticacao">autenticação de dois fatores</a>,{" "}
               <a href="#atualizacoes">software atualizado</a>,{" "}

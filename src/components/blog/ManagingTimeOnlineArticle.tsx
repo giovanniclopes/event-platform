@@ -94,7 +94,7 @@ export default function ManagingTimeOnlineArticle() {
 
             <br />
 
-            <p className="text-lg">
+            <p className="text-lg text-product-purple underline">
               Tags: <a href="#produtividade">produtividade online</a>,{" "}
               <a href="#procrastinacao">procrastinação na internet</a>,{" "}
               <a href="#gerenciamento">gerenciamento de tempo</a>,{" "}

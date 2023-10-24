@@ -132,7 +132,7 @@ export function Subscribe() {
           </p>
         </div>
 
-        <div className="w-full p-9 text-white bg-product-darkPurple rounded-lg mbl:mb-6">
+        <div className="w-full p-9 text-white bg-product-darkPurple rounded-lg mbl:mb-6 mbl:w-auto">
           <strong className="block mb-6 text-2xl">
             Inscreva-se gratuitamente
           </strong>

@@ -106,7 +106,7 @@ export default function IdentifyAndAvoidScamsOnInternetArticle() {
 
             <br />
 
-            <p className="text-lg">
+            <p className="text-lg text-product-purple underline">
               Tags: <a href="#golpes">golpes online</a>,{" "}
               <a href="#seguranca">segurança na internet</a>,{" "}
               <a href="#phishing">e-mails de phishing</a>,{" "}

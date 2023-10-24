@@ -94,7 +94,7 @@ export default function DefinitiveGuideForParentsArticle() {
 
             <br />
 
-            <p className="text-lg">
+            <p className="text-lg text-product-purple underline">
               Tags: <a href="#seguranca">segurança na internet</a>,{" "}
               <a href="#controle">controle parental</a>,{" "}
               <a href="#educacao">educação online</a>,{" "}

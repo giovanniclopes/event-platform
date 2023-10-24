@@ -45,8 +45,11 @@ const DevicePopupCorner: React.FC = () => {
   return (
     <div className="fixed bottom-4 left-4 z-50">
       {isPopupOpen && (
-        <div id="message" className="w-[450px] absolute left-0 bottom-14">
-          <div className="flex flex-col text-center bg-gray-100 rounded-lg p-4 px-12 shadow-2xl border border-product-purple">
+        <div
+          id="message"
+          className="w-[450px] absolute left-0 bottom-14 mbl:w-80"
+        >
+          <div className="flex flex-col text-center bg-gray-100 rounded-lg p-4 px-12 shadow-2xl border border-product-purple mbl:px-6">
             {isDataVisible ? (
               // Show user data and close button
               <>
@@ -83,8 +86,18 @@ const DevicePopupCorner: React.FC = () => {
                   com a coleta de dados.
                 </label>
                 <div className="flex justify-center items-center gap-4 mt-3">
-                  <a className="text-sm text-product-purple font-medium underline" href="/politica-de-privacidade">Política de Privacidade</a>
-                  <a className="text-sm text-product-purple font-medium underline" href="termos-de-uso">Termos de Uso</a>
+                  <a
+                    className="text-sm text-product-purple font-medium underline"
+                    href="/politica-de-privacidade"
+                  >
+                    Política de Privacidade
+                  </a>
+                  <a
+                    className="text-sm text-product-purple font-medium underline"
+                    href="termos-de-uso"
+                  >
+                    Termos de Uso
+                  </a>
                 </div>
                 <button
                   className="mt-5 bg-product-purple text-white font-medium px-4 py-3 rounded-md"

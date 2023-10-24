@@ -93,7 +93,7 @@ export default function SocialMediasArticle() {
 
             <br />
 
-            <p className="text-lg">
+            <p className="text-lg text-product-purple underline">
               Tags: <a href="#redes_sociais">redes sociais</a>,{" "}
               <a href="#presenca_digital">presença digital</a>,{" "}
               <a href="#autenticidade">autenticidade online</a>,{" "}

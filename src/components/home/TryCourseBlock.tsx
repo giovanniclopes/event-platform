@@ -13,7 +13,7 @@ interface TryCourseBlock {
 
 export default function TryCourseBlock(props: TryCourseBlock) {
   return (
-    <div className="w-96 h-96 flex flex-col items-start justify-center gap-5 bg-white p-4 rounded-xl ">
+    <div className="w-96 h-96 flex flex-col items-start justify-center gap-5 bg-white p-4 rounded-xl mbl:w-auto mbl:h-auto">
       <div>
         <img src={props.imageURL} alt="" />
       </div>

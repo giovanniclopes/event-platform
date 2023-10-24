@@ -206,17 +206,17 @@ export default function HomeSections() {
 
       <section className="p-24 bg-vectorTryForFree bg-cover m-0 mbl:p-12">
         <div className="flex flex-col items-center justify-center gap-12">
-          <div className="w-full flex flex-row items-center justify-between px-12 mbl:flex mbl:flex-col mbl:px-1">
+          <div className="w-full flex flex-row items-center justify-between px-12 mbl:w-max mbl:gap-5 mbl:flex mbl:flex-col mbl:px-1">
             <h3 className="text-2xl text-white">Experimente gratuitamente</h3>
             <Link to="/subscribe">
               <button className="flex items-center justify-center gap-1 font-medium text-product-pink transition-colors hover:brightness-75 hover:underline">
-                Ver todos as aulas <CaretRight size={20} />
+                Ver todos as aulas <CaretRight className="w-5 h-5" />
               </button>
             </Link>
           </div>
           <div className="flex flex-row items-center justify-center gap-12 mbl:flex mbl:flex-col">
             <TryCourseBlock
-              btnLink=""
+              btnLink="/subscribe"
               imageURL={tryIntellionIntroductionCourse}
               title={"Introdução à Internet e Navegação Online"}
               author={"Leonardo Coimbra"}
@@ -224,7 +224,7 @@ export default function HomeSections() {
               classDifficult={"Iniciante"}
             />
             <TryCourseBlock
-              btnLink=""
+              btnLink="/subscribe"
               imageURL={tryCibersecurityIntroductionCourse}
               title={"Introdução ao Mundo Digital Protegido"}
               author={"Joab Estevam"}
