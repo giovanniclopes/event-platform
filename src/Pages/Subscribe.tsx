@@ -146,12 +146,14 @@ export function Subscribe() {
               type="text"
               placeholder="Seu nome completo"
               onChange={(event) => setName(event.target.value)}
+              required
             />
             <input
               className="px-5 font-normal bg-white border-b-2 rounded-b-none border-product-pink rounded h-14 focus:border-none focus:outline-none focus:ring-2 focus:ring-product-pink focus:rounded"
               type="email"
               placeholder="Digite seu email"
               onChange={(event) => setEmail(event.target.value)}
+              required
             />
 
             <button
